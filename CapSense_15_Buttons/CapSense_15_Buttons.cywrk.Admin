@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CapSense_15_Buttons\CapSense_15_Buttons">
+<ExpandedNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr\Pins</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr\Analog</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr\Clocks</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr\Interrupts</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr\System</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr\Directives</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.cydwr\Flash Security</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\Header Files</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\Header Files\cyapicallbacks.h</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\Source Files</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\Source Files\main.c</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\Generated_Source</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4000S</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4000S\TopDesign.ctl</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4100S Plus</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4100S Plus\TopDesign.ctl</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4000S</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4000S\TopDesign.ctl</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4100S Plus</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\PSoC4\PSoC 4100S Plus\TopDesign.ctl</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Control.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Filter.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_ISR.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Processing.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Sensing.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_SensingCSD_LL.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Structure.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_Tuner.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED11.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED11_PM.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.elf</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.hex</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.map</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.gpdsc</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons.rpt</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_15_Buttons_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\PSoC 4 Architecture TRM</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\PSoC 4000S Family Datasheet</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\System Reference Guides</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\System Reference Guides\cy_boot_v5_80</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\System Reference Guides\cy_lfclk_v1_20</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_P4_v5_0.pdf</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\cy_pins_v2_20.pdf</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\SCB_P4_v4_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\PSoC 4 Architecture TRM</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\PSoC 4000S Family Datasheet</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\System Reference Guides</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\System Reference Guides\cy_boot_v5_80</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\System Reference Guides\cy_lfclk_v1_20</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\CapSense_P4_v5_0.pdf</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\cy_pins_v2_20.pdf</v>
+<v>CapSense_15_Buttons\CapSense_15_Buttons\SCB_P4_v4_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\CapSense_15_Buttons.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\CapSense_15_Buttons.cydsn\CapSense_15_Buttons.cydwr" />
+<name v=".\CapSense_15_Buttons.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="985, 632" SelectedTabbedMdiWindow="7d3afa98-9d71-414e-8aca-a64af878b511"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="86514337-f5ec-4352-8e6a-dcfe37cc057a" /><DocumentWindow Key="C:\Users\Admin\Documents\PSoC Creator\CE224899_PSoC4_CapSense_Hybrid_Buttons01\CapSense_15_Buttons.cydsn\TopDesign\TopDesign.cysch" Guid="405e6b10-4235-4f54-a994-ad9b661f68cd" /><DocumentWindow Key="C:\Users\Admin\Documents\PSoC Creator\CE224899_PSoC4_CapSense_Hybrid_Buttons01\CapSense_15_Buttons.cydsn\CapSense_15_Buttons.cydwr" Guid="d7c7f721-3219-4fe1-8482-1076e5781628" /><DocumentWindow Key="C:\Users\Admin\Documents\PSoC Creator\CE224899_PSoC4_CapSense_Hybrid_Buttons01\CapSense_15_Buttons.cydsn\main.c" Guid="7d3afa98-9d71-414e-8aca-a64af878b511" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
