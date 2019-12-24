@@ -1,0 +1,7 @@
+C:\Users\User\Documents\PSoC Creator\Char_LCD_Horizontal_Bar_Graph01\LCD_40x2.cydsn\LCD_40x2.cyprj|7bc34cf3-5a0b-4e0c-9bf2-31208f7da3a9
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|465956ac-7c3a-4f75-b680-772a97faa42f
+C:\Users\User\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|d2db564e-eb35-4c5c-be0e-c9cd6a077263
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|4855377a-7890-451e-a2d6-72f2518a9b9a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|b4ba9f25-b508-4634-84cf-91a47f038e64
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|398e47ca-ca7a-4929-936f-e0c8fe0841be
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|a6ff2e00-71f6-4911-9b37-30c286d20195

@@ -1,0 +1,534 @@
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.rodata
+  20              		.align	2
+  21              	.LC0:
+  22 0000 44656D6F 		.ascii	"Demo started\000"
+  22      20737461 
+  22      72746564 
+  22      00
+  23 000d 000000   		.align	2
+  24              	.LC2:
+  25 0010 3A2E3A20 		.ascii	":.: .. ::\000"
+  25      2E2E203A 
+  25      3A00
+  26              		.section	.text.main,"ax",%progbits
+  27              		.align	2
+  28              		.global	main
+  29              		.code	16
+  30              		.thumb_func
+  31              		.type	main, %function
+  32              	main:
+  33              	.LFB35:
+  34              		.file 1 "main.c"
+   1:main.c        **** #include <project.h>
+   2:main.c        **** 
+   3:main.c        **** 
+   4:main.c        **** #define LCD_ROWS                (2u)
+   5:main.c        **** #define LCD_COLUMNS             (40u)
+   6:main.c        **** 
+   7:main.c        **** #define BARGRAPH_DELAY_MS       (15u)
+   8:main.c        **** 
+   9:main.c        **** 
+  10:main.c        **** 
+  11:main.c        **** int main()
+  12:main.c        **** {
+  35              		.loc 1 12 0
+  36              		.cfi_startproc
+  37              		@ args = 0, pretend = 0, frame = 8
+  38              		@ frame_needed = 1, uses_anonymous_args = 0
+  39 0000 80B5     		push	{r7, lr}
+  40              		.cfi_def_cfa_offset 8
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 2
+
+
+  41              		.cfi_offset 7, -8
+  42              		.cfi_offset 14, -4
+  43 0002 82B0     		sub	sp, sp, #8
+  44              		.cfi_def_cfa_offset 16
+  45 0004 00AF     		add	r7, sp, #0
+  46              		.cfi_def_cfa_register 7
+  13:main.c        ****     uint8 row = 0u;
+  47              		.loc 1 13 0
+  48 0006 FB1D     		adds	r3, r7, #7
+  49 0008 0022     		movs	r2, #0
+  50 000a 1A70     		strb	r2, [r3]
+  14:main.c        ****     uint8 column = 0u;
+  51              		.loc 1 14 0
+  52 000c BB1D     		adds	r3, r7, #6
+  53 000e 0022     		movs	r2, #0
+  54 0010 1A70     		strb	r2, [r3]
+  15:main.c        ****     uint8 length = 0u;
+  55              		.loc 1 15 0
+  56 0012 7B1D     		adds	r3, r7, #5
+  57 0014 0022     		movs	r2, #0
+  58 0016 1A70     		strb	r2, [r3]
+  16:main.c        ****     
+  17:main.c        ****     /* Start the LCD */
+  18:main.c        ****     LCD_Start();
+  59              		.loc 1 18 0
+  60 0018 FFF7FEFF 		bl	LCD_Start
+  19:main.c        **** 
+  20:main.c        ****     /* Show the demo start message */
+  21:main.c        ****     LCD_Position(0u, 0u);
+  61              		.loc 1 21 0
+  62 001c 0021     		movs	r1, #0
+  63 001e 0020     		movs	r0, #0
+  64 0020 FFF7FEFF 		bl	LCD_Position
+  22:main.c        ****     LCD_PrintString("Demo started");
+  65              		.loc 1 22 0
+  66 0024 0E4B     		ldr	r3, .L3
+  67 0026 1800     		movs	r0, r3
+  68 0028 FFF7FEFF 		bl	LCD_PrintString
+  23:main.c        ****     CyDelay(1000u);
+  69              		.loc 1 23 0
+  70 002c FA23     		movs	r3, #250
+  71 002e 9B00     		lsls	r3, r3, #2
+  72 0030 1800     		movs	r0, r3
+  73 0032 FFF7FEFF 		bl	CyDelay
+  24:main.c        **** 
+  25:main.c        ****     /* Clear the LCD display */
+  26:main.c        ****     LCD_ClearDisplay();
+  74              		.loc 1 26 0
+  75 0036 0120     		movs	r0, #1
+  76 0038 FFF7FEFF 		bl	LCD_WriteControl
+  27:main.c        ****     
+  28:main.c        **** 
+  29:main.c        ****     
+  30:main.c        ****     /* Wait for some time */
+  31:main.c        ****     CyDelay(500u);
+  77              		.loc 1 31 0
+  78 003c FA23     		movs	r3, #250
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 3
+
+
+  79 003e 5B00     		lsls	r3, r3, #1
+  80 0040 1800     		movs	r0, r3
+  81 0042 FFF7FEFF 		bl	CyDelay
+  32:main.c        ****     
+  33:main.c        ****     /* Show the demo completion message */
+  34:main.c        ****     LCD_Position(0u, 0u);
+  82              		.loc 1 34 0
+  83 0046 0021     		movs	r1, #0
+  84 0048 0020     		movs	r0, #0
+  85 004a FFF7FEFF 		bl	LCD_Position
+  35:main.c        ****     LCD_PrintString(":.: .. ::");
+  86              		.loc 1 35 0
+  87 004e 054B     		ldr	r3, .L3+4
+  88 0050 1800     		movs	r0, r3
+  89 0052 FFF7FEFF 		bl	LCD_PrintString
+  36:main.c        ****     LCD_Position(1u, 0u);
+  90              		.loc 1 36 0
+  91 0056 0021     		movs	r1, #0
+  92 0058 0120     		movs	r0, #1
+  93 005a FFF7FEFF 		bl	LCD_Position
+  94              	.L2:
+  37:main.c        ****     
+  38:main.c        ****     for(;;)
+  39:main.c        ****     {
+  40:main.c        ****         
+  41:main.c        ****     }
+  95              		.loc 1 41 0 discriminator 1
+  96 005e FEE7     		b	.L2
+  97              	.L4:
+  98              		.align	2
+  99              	.L3:
+ 100 0060 00000000 		.word	.LC0
+ 101 0064 10000000 		.word	.LC2
+ 102              		.cfi_endproc
+ 103              	.LFE35:
+ 104              		.size	main, .-main
+ 105              		.text
+ 106              	.Letext0:
+ 107              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+ 108              		.section	.debug_info,"",%progbits
+ 109              	.Ldebug_info0:
+ 110 0000 D7000000 		.4byte	0xd7
+ 111 0004 0400     		.2byte	0x4
+ 112 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 113 000a 04       		.byte	0x4
+ 114 000b 01       		.uleb128 0x1
+ 115 000c 16010000 		.4byte	.LASF16
+ 116 0010 0C       		.byte	0xc
+ 117 0011 1B000000 		.4byte	.LASF17
+ 118 0015 86000000 		.4byte	.LASF18
+ 119 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 120 001d 00000000 		.4byte	0
+ 121 0021 00000000 		.4byte	.Ldebug_line0
+ 122 0025 02       		.uleb128 0x2
+ 123 0026 01       		.byte	0x1
+ 124 0027 06       		.byte	0x6
+ 125 0028 ED000000 		.4byte	.LASF0
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 4
+
+
+ 126 002c 02       		.uleb128 0x2
+ 127 002d 01       		.byte	0x1
+ 128 002e 08       		.byte	0x8
+ 129 002f 68000000 		.4byte	.LASF1
+ 130 0033 02       		.uleb128 0x2
+ 131 0034 02       		.byte	0x2
+ 132 0035 05       		.byte	0x5
+ 133 0036 0C010000 		.4byte	.LASF2
+ 134 003a 02       		.uleb128 0x2
+ 135 003b 02       		.byte	0x2
+ 136 003c 07       		.byte	0x7
+ 137 003d DA000000 		.4byte	.LASF3
+ 138 0041 02       		.uleb128 0x2
+ 139 0042 04       		.byte	0x4
+ 140 0043 05       		.byte	0x5
+ 141 0044 76000000 		.4byte	.LASF4
+ 142 0048 02       		.uleb128 0x2
+ 143 0049 04       		.byte	0x4
+ 144 004a 07       		.byte	0x7
+ 145 004b 34000000 		.4byte	.LASF5
+ 146 004f 02       		.uleb128 0x2
+ 147 0050 08       		.byte	0x8
+ 148 0051 05       		.byte	0x5
+ 149 0052 00000000 		.4byte	.LASF6
+ 150 0056 02       		.uleb128 0x2
+ 151 0057 08       		.byte	0x8
+ 152 0058 07       		.byte	0x7
+ 153 0059 46000000 		.4byte	.LASF7
+ 154 005d 03       		.uleb128 0x3
+ 155 005e 04       		.byte	0x4
+ 156 005f 05       		.byte	0x5
+ 157 0060 696E7400 		.ascii	"int\000"
+ 158 0064 02       		.uleb128 0x2
+ 159 0065 04       		.byte	0x4
+ 160 0066 07       		.byte	0x7
+ 161 0067 0E000000 		.4byte	.LASF8
+ 162 006b 04       		.uleb128 0x4
+ 163 006c 2E000000 		.4byte	.LASF19
+ 164 0070 02       		.byte	0x2
+ 165 0071 D201     		.2byte	0x1d2
+ 166 0073 2C000000 		.4byte	0x2c
+ 167 0077 02       		.uleb128 0x2
+ 168 0078 04       		.byte	0x4
+ 169 0079 04       		.byte	0x4
+ 170 007a 5D000000 		.4byte	.LASF9
+ 171 007e 02       		.uleb128 0x2
+ 172 007f 08       		.byte	0x8
+ 173 0080 04       		.byte	0x4
+ 174 0081 7F000000 		.4byte	.LASF10
+ 175 0085 02       		.uleb128 0x2
+ 176 0086 01       		.byte	0x1
+ 177 0087 08       		.byte	0x8
+ 178 0088 63000000 		.4byte	.LASF11
+ 179 008c 02       		.uleb128 0x2
+ 180 008d 08       		.byte	0x8
+ 181 008e 04       		.byte	0x4
+ 182 008f 00010000 		.4byte	.LASF12
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 5
+
+
+ 183 0093 02       		.uleb128 0x2
+ 184 0094 04       		.byte	0x4
+ 185 0095 07       		.byte	0x7
+ 186 0096 A4010000 		.4byte	.LASF13
+ 187 009a 05       		.uleb128 0x5
+ 188 009b 22000000 		.4byte	.LASF20
+ 189 009f 01       		.byte	0x1
+ 190 00a0 0B       		.byte	0xb
+ 191 00a1 5D000000 		.4byte	0x5d
+ 192 00a5 00000000 		.4byte	.LFB35
+ 193 00a9 68000000 		.4byte	.LFE35-.LFB35
+ 194 00ad 01       		.uleb128 0x1
+ 195 00ae 9C       		.byte	0x9c
+ 196 00af 06       		.uleb128 0x6
+ 197 00b0 726F7700 		.ascii	"row\000"
+ 198 00b4 01       		.byte	0x1
+ 199 00b5 0D       		.byte	0xd
+ 200 00b6 6B000000 		.4byte	0x6b
+ 201 00ba 02       		.uleb128 0x2
+ 202 00bb 91       		.byte	0x91
+ 203 00bc 77       		.sleb128 -9
+ 204 00bd 07       		.uleb128 0x7
+ 205 00be F9000000 		.4byte	.LASF14
+ 206 00c2 01       		.byte	0x1
+ 207 00c3 0E       		.byte	0xe
+ 208 00c4 6B000000 		.4byte	0x6b
+ 209 00c8 02       		.uleb128 0x2
+ 210 00c9 91       		.byte	0x91
+ 211 00ca 76       		.sleb128 -10
+ 212 00cb 07       		.uleb128 0x7
+ 213 00cc 27000000 		.4byte	.LASF15
+ 214 00d0 01       		.byte	0x1
+ 215 00d1 0F       		.byte	0xf
+ 216 00d2 6B000000 		.4byte	0x6b
+ 217 00d6 02       		.uleb128 0x2
+ 218 00d7 91       		.byte	0x91
+ 219 00d8 75       		.sleb128 -11
+ 220 00d9 00       		.byte	0
+ 221 00da 00       		.byte	0
+ 222              		.section	.debug_abbrev,"",%progbits
+ 223              	.Ldebug_abbrev0:
+ 224 0000 01       		.uleb128 0x1
+ 225 0001 11       		.uleb128 0x11
+ 226 0002 01       		.byte	0x1
+ 227 0003 25       		.uleb128 0x25
+ 228 0004 0E       		.uleb128 0xe
+ 229 0005 13       		.uleb128 0x13
+ 230 0006 0B       		.uleb128 0xb
+ 231 0007 03       		.uleb128 0x3
+ 232 0008 0E       		.uleb128 0xe
+ 233 0009 1B       		.uleb128 0x1b
+ 234 000a 0E       		.uleb128 0xe
+ 235 000b 55       		.uleb128 0x55
+ 236 000c 17       		.uleb128 0x17
+ 237 000d 11       		.uleb128 0x11
+ 238 000e 01       		.uleb128 0x1
+ 239 000f 10       		.uleb128 0x10
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 6
+
+
+ 240 0010 17       		.uleb128 0x17
+ 241 0011 00       		.byte	0
+ 242 0012 00       		.byte	0
+ 243 0013 02       		.uleb128 0x2
+ 244 0014 24       		.uleb128 0x24
+ 245 0015 00       		.byte	0
+ 246 0016 0B       		.uleb128 0xb
+ 247 0017 0B       		.uleb128 0xb
+ 248 0018 3E       		.uleb128 0x3e
+ 249 0019 0B       		.uleb128 0xb
+ 250 001a 03       		.uleb128 0x3
+ 251 001b 0E       		.uleb128 0xe
+ 252 001c 00       		.byte	0
+ 253 001d 00       		.byte	0
+ 254 001e 03       		.uleb128 0x3
+ 255 001f 24       		.uleb128 0x24
+ 256 0020 00       		.byte	0
+ 257 0021 0B       		.uleb128 0xb
+ 258 0022 0B       		.uleb128 0xb
+ 259 0023 3E       		.uleb128 0x3e
+ 260 0024 0B       		.uleb128 0xb
+ 261 0025 03       		.uleb128 0x3
+ 262 0026 08       		.uleb128 0x8
+ 263 0027 00       		.byte	0
+ 264 0028 00       		.byte	0
+ 265 0029 04       		.uleb128 0x4
+ 266 002a 16       		.uleb128 0x16
+ 267 002b 00       		.byte	0
+ 268 002c 03       		.uleb128 0x3
+ 269 002d 0E       		.uleb128 0xe
+ 270 002e 3A       		.uleb128 0x3a
+ 271 002f 0B       		.uleb128 0xb
+ 272 0030 3B       		.uleb128 0x3b
+ 273 0031 05       		.uleb128 0x5
+ 274 0032 49       		.uleb128 0x49
+ 275 0033 13       		.uleb128 0x13
+ 276 0034 00       		.byte	0
+ 277 0035 00       		.byte	0
+ 278 0036 05       		.uleb128 0x5
+ 279 0037 2E       		.uleb128 0x2e
+ 280 0038 01       		.byte	0x1
+ 281 0039 3F       		.uleb128 0x3f
+ 282 003a 19       		.uleb128 0x19
+ 283 003b 03       		.uleb128 0x3
+ 284 003c 0E       		.uleb128 0xe
+ 285 003d 3A       		.uleb128 0x3a
+ 286 003e 0B       		.uleb128 0xb
+ 287 003f 3B       		.uleb128 0x3b
+ 288 0040 0B       		.uleb128 0xb
+ 289 0041 49       		.uleb128 0x49
+ 290 0042 13       		.uleb128 0x13
+ 291 0043 11       		.uleb128 0x11
+ 292 0044 01       		.uleb128 0x1
+ 293 0045 12       		.uleb128 0x12
+ 294 0046 06       		.uleb128 0x6
+ 295 0047 40       		.uleb128 0x40
+ 296 0048 18       		.uleb128 0x18
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 7
+
+
+ 297 0049 9642     		.uleb128 0x2116
+ 298 004b 19       		.uleb128 0x19
+ 299 004c 00       		.byte	0
+ 300 004d 00       		.byte	0
+ 301 004e 06       		.uleb128 0x6
+ 302 004f 34       		.uleb128 0x34
+ 303 0050 00       		.byte	0
+ 304 0051 03       		.uleb128 0x3
+ 305 0052 08       		.uleb128 0x8
+ 306 0053 3A       		.uleb128 0x3a
+ 307 0054 0B       		.uleb128 0xb
+ 308 0055 3B       		.uleb128 0x3b
+ 309 0056 0B       		.uleb128 0xb
+ 310 0057 49       		.uleb128 0x49
+ 311 0058 13       		.uleb128 0x13
+ 312 0059 02       		.uleb128 0x2
+ 313 005a 18       		.uleb128 0x18
+ 314 005b 00       		.byte	0
+ 315 005c 00       		.byte	0
+ 316 005d 07       		.uleb128 0x7
+ 317 005e 34       		.uleb128 0x34
+ 318 005f 00       		.byte	0
+ 319 0060 03       		.uleb128 0x3
+ 320 0061 0E       		.uleb128 0xe
+ 321 0062 3A       		.uleb128 0x3a
+ 322 0063 0B       		.uleb128 0xb
+ 323 0064 3B       		.uleb128 0x3b
+ 324 0065 0B       		.uleb128 0xb
+ 325 0066 49       		.uleb128 0x49
+ 326 0067 13       		.uleb128 0x13
+ 327 0068 02       		.uleb128 0x2
+ 328 0069 18       		.uleb128 0x18
+ 329 006a 00       		.byte	0
+ 330 006b 00       		.byte	0
+ 331 006c 00       		.byte	0
+ 332              		.section	.debug_aranges,"",%progbits
+ 333 0000 1C000000 		.4byte	0x1c
+ 334 0004 0200     		.2byte	0x2
+ 335 0006 00000000 		.4byte	.Ldebug_info0
+ 336 000a 04       		.byte	0x4
+ 337 000b 00       		.byte	0
+ 338 000c 0000     		.2byte	0
+ 339 000e 0000     		.2byte	0
+ 340 0010 00000000 		.4byte	.LFB35
+ 341 0014 68000000 		.4byte	.LFE35-.LFB35
+ 342 0018 00000000 		.4byte	0
+ 343 001c 00000000 		.4byte	0
+ 344              		.section	.debug_ranges,"",%progbits
+ 345              	.Ldebug_ranges0:
+ 346 0000 00000000 		.4byte	.LFB35
+ 347 0004 68000000 		.4byte	.LFE35
+ 348 0008 00000000 		.4byte	0
+ 349 000c 00000000 		.4byte	0
+ 350              		.section	.debug_line,"",%progbits
+ 351              	.Ldebug_line0:
+ 352 0000 67000000 		.section	.debug_str,"MS",%progbits,1
+ 352      02004100 
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 8
+
+
+ 352      00000201 
+ 352      FB0E0D00 
+ 352      01010101 
+ 353              	.LASF6:
+ 354 0000 6C6F6E67 		.ascii	"long long int\000"
+ 354      206C6F6E 
+ 354      6720696E 
+ 354      7400
+ 355              	.LASF8:
+ 356 000e 756E7369 		.ascii	"unsigned int\000"
+ 356      676E6564 
+ 356      20696E74 
+ 356      00
+ 357              	.LASF17:
+ 358 001b 6D61696E 		.ascii	"main.c\000"
+ 358      2E6300
+ 359              	.LASF20:
+ 360 0022 6D61696E 		.ascii	"main\000"
+ 360      00
+ 361              	.LASF15:
+ 362 0027 6C656E67 		.ascii	"length\000"
+ 362      746800
+ 363              	.LASF19:
+ 364 002e 75696E74 		.ascii	"uint8\000"
+ 364      3800
+ 365              	.LASF5:
+ 366 0034 6C6F6E67 		.ascii	"long unsigned int\000"
+ 366      20756E73 
+ 366      69676E65 
+ 366      6420696E 
+ 366      7400
+ 367              	.LASF7:
+ 368 0046 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 368      206C6F6E 
+ 368      6720756E 
+ 368      7369676E 
+ 368      65642069 
+ 369              	.LASF9:
+ 370 005d 666C6F61 		.ascii	"float\000"
+ 370      7400
+ 371              	.LASF11:
+ 372 0063 63686172 		.ascii	"char\000"
+ 372      00
+ 373              	.LASF1:
+ 374 0068 756E7369 		.ascii	"unsigned char\000"
+ 374      676E6564 
+ 374      20636861 
+ 374      7200
+ 375              	.LASF4:
+ 376 0076 6C6F6E67 		.ascii	"long int\000"
+ 376      20696E74 
+ 376      00
+ 377              	.LASF10:
+ 378 007f 646F7562 		.ascii	"double\000"
+ 378      6C6500
+ 379              	.LASF18:
+ 380 0086 433A5C55 		.ascii	"C:\\Users\\User\\Documents\\PSoC Creator\\Char_LCD_"
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccSkdHCp.s 			page 9
+
+
+ 380      73657273 
+ 380      5C557365 
+ 380      725C446F 
+ 380      63756D65 
+ 381 00b4 486F7269 		.ascii	"Horizontal_Bar_Graph01\\LCD_40x2.cydsn\000"
+ 381      7A6F6E74 
+ 381      616C5F42 
+ 381      61725F47 
+ 381      72617068 
+ 382              	.LASF3:
+ 383 00da 73686F72 		.ascii	"short unsigned int\000"
+ 383      7420756E 
+ 383      7369676E 
+ 383      65642069 
+ 383      6E7400
+ 384              	.LASF0:
+ 385 00ed 7369676E 		.ascii	"signed char\000"
+ 385      65642063 
+ 385      68617200 
+ 386              	.LASF14:
+ 387 00f9 636F6C75 		.ascii	"column\000"
+ 387      6D6E00
+ 388              	.LASF12:
+ 389 0100 6C6F6E67 		.ascii	"long double\000"
+ 389      20646F75 
+ 389      626C6500 
+ 390              	.LASF2:
+ 391 010c 73686F72 		.ascii	"short int\000"
+ 391      7420696E 
+ 391      7400
+ 392              	.LASF16:
+ 393 0116 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 393      43313120 
+ 393      352E342E 
+ 393      31203230 
+ 393      31363036 
+ 394 0149 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 394      20726576 
+ 394      6973696F 
+ 394      6E203233 
+ 394      37373135 
+ 395 017c 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 395      66756E63 
+ 395      74696F6E 
+ 395      2D736563 
+ 395      74696F6E 
+ 396              	.LASF13:
+ 397 01a4 73697A65 		.ascii	"sizetype\000"
+ 397      74797065 
+ 397      00
+ 398              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
