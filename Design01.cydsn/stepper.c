@@ -43,6 +43,7 @@ static uint32_t accelLimit;
 /******* ОБРОБНИКИ ПЕРЕРИВАНЬ ************************************************/
 
 // обробник для руху по осі Х
+<<<<<<< HEAD
 
 CY_ISR(isr_1)
 {
@@ -50,15 +51,23 @@ CY_ISR(isr_1)
     Step_Counter_ClearInterrupt(Step_Counter_INTR_MASK_TC);
 }
 
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 CY_ISR(X_MoveISR)
 {
     xStepsRemaining--;
 
     if ((xStepsRemaining) == 0) 
     {
+<<<<<<< HEAD
         Step_Counter_Stop();
         CyDelayUs(5);
         Step_Counter_Init();
+=======
+        X_Counter_Stop();
+        CyDelayUs(5);
+        X_Counter_Init();
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
         Stepper_xMotorState = X_MOTOR_READY;
     }    
 
@@ -67,6 +76,7 @@ CY_ISR(X_MoveISR)
     
     if (xStepsRemaining <= accelLimit) // тормозимося
     {
+<<<<<<< HEAD
         Step_Counter_WritePeriod(acceleration[xStepsRemaining-1]);
     }
     else if (xStepsExecuted <= accelMaxIndex) // розганяємося
@@ -80,6 +90,20 @@ CY_ISR(X_MoveISR)
 
     xStepsExecuted++;    
     Step_Counter_ClearInterrupt(Step_Counter_INTR_MASK_TC);
+=======
+        X_Counter_WritePeriod(acceleration[xStepsRemaining-1]);
+    }
+    else if (xStepsExecuted <= accelMaxIndex) // розганяємося
+    {
+        X_Counter_WritePeriod(acceleration[xStepsExecuted]);
+    }
+    else // повна швидкість
+    {
+        X_Counter_WritePeriod(FULL_SPEED_PERIOD);
+    }
+
+    xStepsExecuted++;    
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 }
 
 
@@ -104,6 +128,12 @@ static bool FillAccelerationArray()
         acceleration[i] = t_imp;
         accelMaxIndex = i;
         
+<<<<<<< HEAD
+=======
+        //зберегти індекс половинної швидкості
+        if ((t > (ACCELERATION_TIME / 2.0)) && (accelHalfSpeedIndex == 0)) 
+            accelHalfSpeedIndex = i;        
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
         
         // вийти з циклу якщо вже досягнуто ліміту прискорення 
         if (t > ACCELERATION_TIME) break; 
@@ -114,31 +144,51 @@ static bool FillAccelerationArray()
 
 bool Stepper_Init(void)
 {
+<<<<<<< HEAD
   Step_Counter_Init();
   X_Interrupt_StartEx(X_MoveISR);
+=======
+  X_Counter_Init();
+  X_Interrupt_Start();
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
   return FillAccelerationArray();
 }
 
+<<<<<<< HEAD
 void Stepper_MoveX(bool nonBlocking, MOTOR_ENUM motor ,X_DIRECTION_ENUM direction, uint32_t steps)
+=======
+void Stepper_MoveX(bool nonBlocking, X_DIRECTION_ENUM direction, uint32_t steps)
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 {
     xStepsExecuted = 0;
     xStepsRemaining = steps; 
     Stepper_xMotorState = X_MOTOR_MOVE;
     accelLimit = steps/2;
+<<<<<<< HEAD
     
     Step_Counter_Enable();
     Motor_Control_Reg_Write(motor);
     
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     if (accelLimit > accelMaxIndex)
     {
         accelLimit = accelMaxIndex;
     }    
 
+<<<<<<< HEAD
     Step_Counter_WritePeriod(LOW_SPEED_PERIOD);    
     Pin_DIR_X_Write(direction);
     Pin_DIR_Y_Write(direction);
     Step_Counter_Start();
+=======
+    X_Counter_WritePeriod(LOW_SPEED_PERIOD);    
+    Pin_DIR_Write(1);
+    X_Interrupt_SetVector(X_MoveISR);
+    X_Counter_Start();
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     
     //якщо функція блокуюча - чекаємо поки двигун виконає всі кроки
     if (!nonBlocking) 
@@ -149,7 +199,11 @@ void Stepper_MoveX(bool nonBlocking, MOTOR_ENUM motor ,X_DIRECTION_ENUM directio
 
 void Stepper_StopX(void)
 {
+<<<<<<< HEAD
     Step_Counter_Stop();
+=======
+    X_Counter_Stop();
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     Stepper_xMotorState = X_MOTOR_READY;
 }
 

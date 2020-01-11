@@ -2,7 +2,11 @@
 --	Conversion of Design01.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
+<<<<<<< HEAD
 --	Fri Jan 10 09:55:38 2020
+=======
+--	Tue Dec 24 16:17:42 2019
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 --
 
 USE cypress.cypress.all;
@@ -32,6 +36,7 @@ TERMINAL tmpSIOVREF__Pin_EN_net_0 : bit;
 SIGNAL tmpINTERRUPT_0__Pin_EN_net_0 : bit;
 SIGNAL Net_2828 : bit;
 SIGNAL Net_2852 : bit;
+<<<<<<< HEAD
 SIGNAL \Step_Counter:Net_81\ : bit;
 SIGNAL \Step_Counter:Net_75\ : bit;
 SIGNAL \Step_Counter:Net_69\ : bit;
@@ -43,6 +48,19 @@ SIGNAL Net_2823 : bit;
 SIGNAL Net_2879 : bit;
 SIGNAL Net_2877 : bit;
 SIGNAL Net_2878 : bit;
+=======
+SIGNAL \X_Counter:Net_81\ : bit;
+SIGNAL \X_Counter:Net_75\ : bit;
+SIGNAL \X_Counter:Net_69\ : bit;
+SIGNAL \X_Counter:Net_66\ : bit;
+SIGNAL \X_Counter:Net_82\ : bit;
+SIGNAL \X_Counter:Net_72\ : bit;
+SIGNAL Net_2765 : bit;
+SIGNAL Net_2823 : bit;
+SIGNAL Net_2825 : bit;
+SIGNAL Net_2767 : bit;
+SIGNAL Net_2768 : bit;
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 SIGNAL Net_2763 : bit;
 SIGNAL Net_2769 : bit;
 SIGNAL \Counter_Motor_Steps:Net_81\ : bit;
@@ -96,6 +114,7 @@ SIGNAL tmpFB_0__Pin_DIR_Y_net_0 : bit;
 SIGNAL tmpIO_0__Pin_DIR_Y_net_0 : bit;
 TERMINAL tmpSIOVREF__Pin_DIR_Y_net_0 : bit;
 SIGNAL tmpINTERRUPT_0__Pin_DIR_Y_net_0 : bit;
+<<<<<<< HEAD
 SIGNAL \LCD:tmpOE__LCDPort_net_6\ : bit;
 SIGNAL \LCD:tmpOE__LCDPort_net_5\ : bit;
 SIGNAL \LCD:tmpOE__LCDPort_net_4\ : bit;
@@ -119,6 +138,8 @@ SIGNAL \LCD:tmpIO_6__LCDPort_net_1\ : bit;
 SIGNAL \LCD:tmpIO_6__LCDPort_net_0\ : bit;
 TERMINAL \LCD:tmpSIOVREF__LCDPort_net_0\ : bit;
 SIGNAL \LCD:tmpINTERRUPT_0__LCDPort_net_0\ : bit;
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 SIGNAL cy_tff_1D : bit;
 BEGIN
 
@@ -128,7 +149,12 @@ tmpOE__Pin_STEP_X_net_0 <=  ('1') ;
 
 Net_2831 <= ((Net_2828 and Net_2852));
 
+<<<<<<< HEAD
 Net_2835 <= ((not Net_2852 and Net_2828));
+=======
+Net_2835 <= (Net_2852
+	OR not Net_2828);
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 cy_tff_1D <= (not Net_2828);
 
@@ -342,7 +368,11 @@ Pin_EN:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__Pin_STEP_X_net_0,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__Pin_EN_net_0);
+<<<<<<< HEAD
 \Step_Counter:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
+=======
+\X_Counter:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 	GENERIC MAP(cy_registers=>"")
 	PORT MAP(clock=>Net_2769,
 		capture=>zero,
@@ -350,18 +380,30 @@ Pin_EN:cy_psoc3_pins_v1_10
 		reload=>zero,
 		stop=>zero,
 		start=>zero,
+<<<<<<< HEAD
 		underflow=>Net_2876,
 		overflow=>Net_2823,
 		compare_match=>Net_2879,
 		line_out=>Net_2877,
 		line_out_compl=>Net_2878,
+=======
+		underflow=>Net_2765,
+		overflow=>Net_2823,
+		compare_match=>Net_2825,
+		line_out=>Net_2767,
+		line_out_compl=>Net_2768,
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 		interrupt=>Net_2763);
 Clock_1:cy_clock_v1_0
 	GENERIC MAP(cy_registers=>"",
 		id=>"cecb30c4-faff-40a2-817a-613bcf0c095b",
 		source_clock_id=>"",
 		divisor=>0,
+<<<<<<< HEAD
 		period=>"83333333.3333333",
+=======
+		period=>"166666666.666667",
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 		is_direct=>'0',
 		is_digital=>'0')
 	PORT MAP(clock_out=>Net_2769,
@@ -534,6 +576,7 @@ Pin_DIR_Y:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__Pin_STEP_X_net_0,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__Pin_DIR_Y_net_0);
+<<<<<<< HEAD
 \LCD:LCDPort\:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"c9ce2be9-ef37-40d7-a46c-17e7d2193233/ed092b9b-d398-4703-be89-cebf998501f6",
 		drive_mode=>"110110110110110110110",
@@ -610,6 +653,8 @@ Pin_DIR_Y:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__Pin_STEP_X_net_0,
 		out_reset=>zero,
 		interrupt=>\LCD:tmpINTERRUPT_0__LCDPort_net_0\);
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 cy_tff_1:cy_dff
 	PORT MAP(d=>cy_tff_1D,
 		clk=>Net_2823,

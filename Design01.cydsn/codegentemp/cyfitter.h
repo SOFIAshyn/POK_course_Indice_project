@@ -18,6 +18,7 @@
 #define INCLUDED_CYFITTER_H
 #include "cydevice_trm.h"
 
+<<<<<<< HEAD
 /* LCD */
 #define LCD_LCDPort__0__DR CYREG_GPIO_PRT3_DR
 #define LCD_LCDPort__0__DR_CLR CYREG_GPIO_PRT3_DR_CLR
@@ -273,6 +274,8 @@
 #define LCD_LCDPort__PS CYREG_GPIO_PRT3_PS
 #define LCD_LCDPort__SHIFT 0u
 
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 /* Pin_EN */
 #define Pin_EN__0__DR CYREG_GPIO_PRT0_DR
 #define Pin_EN__0__DR_CLR CYREG_GPIO_PRT0_DR_CLR
@@ -406,6 +409,7 @@
 #define Pin_DIR_X__SHIFT 0u
 
 /* Pin_DIR_Y */
+<<<<<<< HEAD
 #define Pin_DIR_Y__0__DR CYREG_GPIO_PRT1_DR
 #define Pin_DIR_Y__0__DR_CLR CYREG_GPIO_PRT1_DR_CLR
 #define Pin_DIR_Y__0__DR_INV CYREG_GPIO_PRT1_DR_INV
@@ -467,6 +471,101 @@
 #define Pin_DIR_Y__PORT 1u
 #define Pin_DIR_Y__PS CYREG_GPIO_PRT1_PS
 #define Pin_DIR_Y__SHIFT 2u
+=======
+#define Pin_DIR_Y__0__DR CYREG_GPIO_PRT0_DR
+#define Pin_DIR_Y__0__DR_CLR CYREG_GPIO_PRT0_DR_CLR
+#define Pin_DIR_Y__0__DR_INV CYREG_GPIO_PRT0_DR_INV
+#define Pin_DIR_Y__0__DR_SET CYREG_GPIO_PRT0_DR_SET
+#define Pin_DIR_Y__0__HSIOM CYREG_HSIOM_PORT_SEL0
+#define Pin_DIR_Y__0__HSIOM_MASK 0x0000000Fu
+#define Pin_DIR_Y__0__HSIOM_SHIFT 0u
+#define Pin_DIR_Y__0__INTCFG CYREG_GPIO_PRT0_INTR_CFG
+#define Pin_DIR_Y__0__INTR CYREG_GPIO_PRT0_INTR
+#define Pin_DIR_Y__0__INTR_CFG CYREG_GPIO_PRT0_INTR_CFG
+#define Pin_DIR_Y__0__INTSTAT CYREG_GPIO_PRT0_INTR
+#define Pin_DIR_Y__0__MASK 0x01u
+#define Pin_DIR_Y__0__PA__CFG0 CYREG_UDB_PA0_CFG0
+#define Pin_DIR_Y__0__PA__CFG1 CYREG_UDB_PA0_CFG1
+#define Pin_DIR_Y__0__PA__CFG10 CYREG_UDB_PA0_CFG10
+#define Pin_DIR_Y__0__PA__CFG11 CYREG_UDB_PA0_CFG11
+#define Pin_DIR_Y__0__PA__CFG12 CYREG_UDB_PA0_CFG12
+#define Pin_DIR_Y__0__PA__CFG13 CYREG_UDB_PA0_CFG13
+#define Pin_DIR_Y__0__PA__CFG14 CYREG_UDB_PA0_CFG14
+#define Pin_DIR_Y__0__PA__CFG2 CYREG_UDB_PA0_CFG2
+#define Pin_DIR_Y__0__PA__CFG3 CYREG_UDB_PA0_CFG3
+#define Pin_DIR_Y__0__PA__CFG4 CYREG_UDB_PA0_CFG4
+#define Pin_DIR_Y__0__PA__CFG5 CYREG_UDB_PA0_CFG5
+#define Pin_DIR_Y__0__PA__CFG6 CYREG_UDB_PA0_CFG6
+#define Pin_DIR_Y__0__PA__CFG7 CYREG_UDB_PA0_CFG7
+#define Pin_DIR_Y__0__PA__CFG8 CYREG_UDB_PA0_CFG8
+#define Pin_DIR_Y__0__PA__CFG9 CYREG_UDB_PA0_CFG9
+#define Pin_DIR_Y__0__PC CYREG_GPIO_PRT0_PC
+#define Pin_DIR_Y__0__PC2 CYREG_GPIO_PRT0_PC2
+#define Pin_DIR_Y__0__PORT 0u
+#define Pin_DIR_Y__0__PS CYREG_GPIO_PRT0_PS
+#define Pin_DIR_Y__0__SHIFT 0u
+#define Pin_DIR_Y__DR CYREG_GPIO_PRT0_DR
+#define Pin_DIR_Y__DR_CLR CYREG_GPIO_PRT0_DR_CLR
+#define Pin_DIR_Y__DR_INV CYREG_GPIO_PRT0_DR_INV
+#define Pin_DIR_Y__DR_SET CYREG_GPIO_PRT0_DR_SET
+#define Pin_DIR_Y__INTCFG CYREG_GPIO_PRT0_INTR_CFG
+#define Pin_DIR_Y__INTR CYREG_GPIO_PRT0_INTR
+#define Pin_DIR_Y__INTR_CFG CYREG_GPIO_PRT0_INTR_CFG
+#define Pin_DIR_Y__INTSTAT CYREG_GPIO_PRT0_INTR
+#define Pin_DIR_Y__MASK 0x01u
+#define Pin_DIR_Y__PA__CFG0 CYREG_UDB_PA0_CFG0
+#define Pin_DIR_Y__PA__CFG1 CYREG_UDB_PA0_CFG1
+#define Pin_DIR_Y__PA__CFG10 CYREG_UDB_PA0_CFG10
+#define Pin_DIR_Y__PA__CFG11 CYREG_UDB_PA0_CFG11
+#define Pin_DIR_Y__PA__CFG12 CYREG_UDB_PA0_CFG12
+#define Pin_DIR_Y__PA__CFG13 CYREG_UDB_PA0_CFG13
+#define Pin_DIR_Y__PA__CFG14 CYREG_UDB_PA0_CFG14
+#define Pin_DIR_Y__PA__CFG2 CYREG_UDB_PA0_CFG2
+#define Pin_DIR_Y__PA__CFG3 CYREG_UDB_PA0_CFG3
+#define Pin_DIR_Y__PA__CFG4 CYREG_UDB_PA0_CFG4
+#define Pin_DIR_Y__PA__CFG5 CYREG_UDB_PA0_CFG5
+#define Pin_DIR_Y__PA__CFG6 CYREG_UDB_PA0_CFG6
+#define Pin_DIR_Y__PA__CFG7 CYREG_UDB_PA0_CFG7
+#define Pin_DIR_Y__PA__CFG8 CYREG_UDB_PA0_CFG8
+#define Pin_DIR_Y__PA__CFG9 CYREG_UDB_PA0_CFG9
+#define Pin_DIR_Y__PC CYREG_GPIO_PRT0_PC
+#define Pin_DIR_Y__PC2 CYREG_GPIO_PRT0_PC2
+#define Pin_DIR_Y__PORT 0u
+#define Pin_DIR_Y__PS CYREG_GPIO_PRT0_PS
+#define Pin_DIR_Y__SHIFT 0u
+
+/* X_Counter */
+#define X_Counter_cy_m0s8_tcpwm_1__CC CYREG_TCPWM_CNT1_CC
+#define X_Counter_cy_m0s8_tcpwm_1__CC_BUFF CYREG_TCPWM_CNT1_CC_BUFF
+#define X_Counter_cy_m0s8_tcpwm_1__COUNTER CYREG_TCPWM_CNT1_COUNTER
+#define X_Counter_cy_m0s8_tcpwm_1__CTRL CYREG_TCPWM_CNT1_CTRL
+#define X_Counter_cy_m0s8_tcpwm_1__INTR CYREG_TCPWM_CNT1_INTR
+#define X_Counter_cy_m0s8_tcpwm_1__INTR_MASK CYREG_TCPWM_CNT1_INTR_MASK
+#define X_Counter_cy_m0s8_tcpwm_1__INTR_MASKED CYREG_TCPWM_CNT1_INTR_MASKED
+#define X_Counter_cy_m0s8_tcpwm_1__INTR_SET CYREG_TCPWM_CNT1_INTR_SET
+#define X_Counter_cy_m0s8_tcpwm_1__PERIOD CYREG_TCPWM_CNT1_PERIOD
+#define X_Counter_cy_m0s8_tcpwm_1__PERIOD_BUFF CYREG_TCPWM_CNT1_PERIOD_BUFF
+#define X_Counter_cy_m0s8_tcpwm_1__STATUS CYREG_TCPWM_CNT1_STATUS
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMD CYREG_TCPWM_CMD
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_MASK 0x02u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDCAPTURE_SHIFT 1u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_MASK 0x200u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDRELOAD_SHIFT 9u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_MASK 0x2000000u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDSTART_SHIFT 25u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_MASK 0x20000u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CMDSTOP_SHIFT 17u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CTRL CYREG_TCPWM_CTRL
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CTRL_MASK 0x02u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_CTRL_SHIFT 1u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE CYREG_TCPWM_INTR_CAUSE
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_MASK 0x02u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_INTR_CAUSE_SHIFT 1u
+#define X_Counter_cy_m0s8_tcpwm_1__TCPWM_NUMBER 1u
+#define X_Counter_cy_m0s8_tcpwm_1__TR_CTRL0 CYREG_TCPWM_CNT1_TR_CTRL0
+#define X_Counter_cy_m0s8_tcpwm_1__TR_CTRL1 CYREG_TCPWM_CNT1_TR_CTRL1
+#define X_Counter_cy_m0s8_tcpwm_1__TR_CTRL2 CYREG_TCPWM_CNT1_TR_CTRL2
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 /* Pin_STEP_X */
 #define Pin_STEP_X__0__DR CYREG_GPIO_PRT1_DR
@@ -535,6 +634,7 @@
 #define Pin_STEP_X__SHIFT 3u
 
 /* Pin_STEP_Y */
+<<<<<<< HEAD
 #define Pin_STEP_Y__0__DR CYREG_GPIO_PRT1_DR
 #define Pin_STEP_Y__0__DR_CLR CYREG_GPIO_PRT1_DR_CLR
 #define Pin_STEP_Y__0__DR_INV CYREG_GPIO_PRT1_DR_INV
@@ -598,6 +698,71 @@
 #define Pin_STEP_Y__PC2 CYREG_GPIO_PRT1_PC2
 #define Pin_STEP_Y__PORT 1u
 #define Pin_STEP_Y__PS CYREG_GPIO_PRT1_PS
+=======
+#define Pin_STEP_Y__0__DR CYREG_GPIO_PRT2_DR
+#define Pin_STEP_Y__0__DR_CLR CYREG_GPIO_PRT2_DR_CLR
+#define Pin_STEP_Y__0__DR_INV CYREG_GPIO_PRT2_DR_INV
+#define Pin_STEP_Y__0__DR_SET CYREG_GPIO_PRT2_DR_SET
+#define Pin_STEP_Y__0__HSIOM CYREG_HSIOM_PORT_SEL2
+#define Pin_STEP_Y__0__HSIOM_MASK 0x0F000000u
+#define Pin_STEP_Y__0__HSIOM_SHIFT 24u
+#define Pin_STEP_Y__0__INTCFG CYREG_GPIO_PRT2_INTR_CFG
+#define Pin_STEP_Y__0__INTR CYREG_GPIO_PRT2_INTR
+#define Pin_STEP_Y__0__INTR_CFG CYREG_GPIO_PRT2_INTR_CFG
+#define Pin_STEP_Y__0__INTSTAT CYREG_GPIO_PRT2_INTR
+#define Pin_STEP_Y__0__MASK 0x40u
+#define Pin_STEP_Y__0__OUT_SEL CYREG_UDB_PA2_CFG10
+#define Pin_STEP_Y__0__OUT_SEL_SHIFT 12u
+#define Pin_STEP_Y__0__OUT_SEL_VAL 1u
+#define Pin_STEP_Y__0__PA__CFG0 CYREG_UDB_PA2_CFG0
+#define Pin_STEP_Y__0__PA__CFG1 CYREG_UDB_PA2_CFG1
+#define Pin_STEP_Y__0__PA__CFG10 CYREG_UDB_PA2_CFG10
+#define Pin_STEP_Y__0__PA__CFG11 CYREG_UDB_PA2_CFG11
+#define Pin_STEP_Y__0__PA__CFG12 CYREG_UDB_PA2_CFG12
+#define Pin_STEP_Y__0__PA__CFG13 CYREG_UDB_PA2_CFG13
+#define Pin_STEP_Y__0__PA__CFG14 CYREG_UDB_PA2_CFG14
+#define Pin_STEP_Y__0__PA__CFG2 CYREG_UDB_PA2_CFG2
+#define Pin_STEP_Y__0__PA__CFG3 CYREG_UDB_PA2_CFG3
+#define Pin_STEP_Y__0__PA__CFG4 CYREG_UDB_PA2_CFG4
+#define Pin_STEP_Y__0__PA__CFG5 CYREG_UDB_PA2_CFG5
+#define Pin_STEP_Y__0__PA__CFG6 CYREG_UDB_PA2_CFG6
+#define Pin_STEP_Y__0__PA__CFG7 CYREG_UDB_PA2_CFG7
+#define Pin_STEP_Y__0__PA__CFG8 CYREG_UDB_PA2_CFG8
+#define Pin_STEP_Y__0__PA__CFG9 CYREG_UDB_PA2_CFG9
+#define Pin_STEP_Y__0__PC CYREG_GPIO_PRT2_PC
+#define Pin_STEP_Y__0__PC2 CYREG_GPIO_PRT2_PC2
+#define Pin_STEP_Y__0__PORT 2u
+#define Pin_STEP_Y__0__PS CYREG_GPIO_PRT2_PS
+#define Pin_STEP_Y__0__SHIFT 6u
+#define Pin_STEP_Y__DR CYREG_GPIO_PRT2_DR
+#define Pin_STEP_Y__DR_CLR CYREG_GPIO_PRT2_DR_CLR
+#define Pin_STEP_Y__DR_INV CYREG_GPIO_PRT2_DR_INV
+#define Pin_STEP_Y__DR_SET CYREG_GPIO_PRT2_DR_SET
+#define Pin_STEP_Y__INTCFG CYREG_GPIO_PRT2_INTR_CFG
+#define Pin_STEP_Y__INTR CYREG_GPIO_PRT2_INTR
+#define Pin_STEP_Y__INTR_CFG CYREG_GPIO_PRT2_INTR_CFG
+#define Pin_STEP_Y__INTSTAT CYREG_GPIO_PRT2_INTR
+#define Pin_STEP_Y__MASK 0x40u
+#define Pin_STEP_Y__PA__CFG0 CYREG_UDB_PA2_CFG0
+#define Pin_STEP_Y__PA__CFG1 CYREG_UDB_PA2_CFG1
+#define Pin_STEP_Y__PA__CFG10 CYREG_UDB_PA2_CFG10
+#define Pin_STEP_Y__PA__CFG11 CYREG_UDB_PA2_CFG11
+#define Pin_STEP_Y__PA__CFG12 CYREG_UDB_PA2_CFG12
+#define Pin_STEP_Y__PA__CFG13 CYREG_UDB_PA2_CFG13
+#define Pin_STEP_Y__PA__CFG14 CYREG_UDB_PA2_CFG14
+#define Pin_STEP_Y__PA__CFG2 CYREG_UDB_PA2_CFG2
+#define Pin_STEP_Y__PA__CFG3 CYREG_UDB_PA2_CFG3
+#define Pin_STEP_Y__PA__CFG4 CYREG_UDB_PA2_CFG4
+#define Pin_STEP_Y__PA__CFG5 CYREG_UDB_PA2_CFG5
+#define Pin_STEP_Y__PA__CFG6 CYREG_UDB_PA2_CFG6
+#define Pin_STEP_Y__PA__CFG7 CYREG_UDB_PA2_CFG7
+#define Pin_STEP_Y__PA__CFG8 CYREG_UDB_PA2_CFG8
+#define Pin_STEP_Y__PA__CFG9 CYREG_UDB_PA2_CFG9
+#define Pin_STEP_Y__PC CYREG_GPIO_PRT2_PC
+#define Pin_STEP_Y__PC2 CYREG_GPIO_PRT2_PC2
+#define Pin_STEP_Y__PORT 2u
+#define Pin_STEP_Y__PS CYREG_GPIO_PRT2_PS
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 #define Pin_STEP_Y__SHIFT 6u
 
 /* X_Interrupt */
@@ -611,6 +776,7 @@
 #define X_Interrupt__INTC_SET_EN_REG CYREG_CM0_ISER
 #define X_Interrupt__INTC_SET_PD_REG CYREG_CM0_ISPR
 
+<<<<<<< HEAD
 /* Step_Counter */
 #define Step_Counter_cy_m0s8_tcpwm_1__CC CYREG_TCPWM_CNT1_CC
 #define Step_Counter_cy_m0s8_tcpwm_1__CC_BUFF CYREG_TCPWM_CNT1_CC_BUFF
@@ -643,6 +809,8 @@
 #define Step_Counter_cy_m0s8_tcpwm_1__TR_CTRL1 CYREG_TCPWM_CNT1_TR_CTRL1
 #define Step_Counter_cy_m0s8_tcpwm_1__TR_CTRL2 CYREG_TCPWM_CNT1_TR_CTRL2
 
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 /* Motor_Control_Reg */
 #define Motor_Control_Reg_Sync_ctrl_reg__0__MASK 0x01u
 #define Motor_Control_Reg_Sync_ctrl_reg__0__POS 0

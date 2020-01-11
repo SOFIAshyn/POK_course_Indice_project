@@ -1,0 +1,1417 @@
+Archive member included to satisfy reference by file (symbol)
+
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\main.o (CapSense_Start)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o) (CapSense_DpInitialize)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o) (CapSense_DsInitialize)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o) (CapSense_TuInitialize)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o) (CapSense_InitializeAllBaselines)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\main.o (CapSense_IsBusy)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o) (CapSense_SsCSDInitialize)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\main.o (EZI2C_Start)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o) (EZI2C_EzI2CInit)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o) (EZI2C_EZI2C_STRETCH_ISR)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\main.o (LED11_Write)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o) (CapSense_ISR_StartEx)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o) (CyIntEnable)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o) (CySysClkWcoEnabled)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o) (CyDelayCycles)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o) (CapSense_CSDPostSingleScan)
+.\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o) (CySysFlashSetWaitCycles)
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o) (SmartSense_TunePrescalers)
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o) (SmartSense_UpdateThresholds)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o) (__aeabi_uidiv)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o (__errno)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
+                              .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o) (memcpy)
+c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+EZI2C_offsetBuf1    0x2               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+EZI2C_indexBuf1     0x2               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+EZI2C_fsmState      0x1               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+EZI2C_protectBuf1   0x2               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+EZI2C_curStatus     0x1               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+CapSense_dsRam      0x1d8             .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+CapSense_curRamSnsPtr
+                    0x4               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+EZI2C_dataBuffer1   0x4               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+EZI2C_bufSizeBuf1   0x2               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+CapSense_curSnsIOPtr
+                    0x4               .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .data          0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .text          0x00000000       0x78 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .data          0x00000000        0x4 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .text._exit    0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .text._sbrk    0x00000000       0x30 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text.CapSense_Stop
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text.CapSense_Resume
+                0x00000000       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text.CapSense_ProcessWidget
+                0x00000000       0x50 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text.CapSense_ProcessWidgetExt
+                0x00000000       0x58 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text.CapSense_ProcessSensorExt
+                0x00000000       0x34 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text.CapSense_Sleep
+                0x00000000        0x4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text.CapSense_Wakeup
+                0x00000000        0x4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .text.CapSense_DpProcessCsdSensorRawCountsExt
+                0x00000000       0x54 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .text.DsParseParamId
+                0x00000000       0x84 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .text.CapSense_GetParam
+                0x00000000       0x60 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .text.CapSense_SetParam
+                0x00000000       0x58 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .text.CapSense_IsAnyWidgetActive
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .text.CapSense_IsSensorActive
+                0x00000000       0x30 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .text.CapSense_RunNoiseEnvelope
+                0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .text.CapSense_InitializeNoiseEnvelope
+                0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .text.CapSense_UpdateSensorBaseline
+                0x00000000       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .text.CapSense_UpdateWidgetBaseline
+                0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .text.CapSense_UpdateAllBaselines
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_SetPinState
+                0x00000000       0x9c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_SsIsrInitialize
+                0x00000000        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_SsSetSnsClockDivider
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_SsSetClockDividers
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_CalibrateWidget
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_CalibrateAllWidgets
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_SsCSDDisconnectSnsExt
+                0x00000000       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .text.EZI2C_ScbModeStop
+                0x00000000        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .text.EZI2C_Stop
+                0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .text.EZI2C_SetRxFifoLevel
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .text.EZI2C_SetTxFifoLevel
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .text.EZI2C_SetCustomInterruptHandler
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .text.EZI2C_EzI2CStop
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .text.EZI2C_EzI2CGetActivity
+                0x00000000       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .text.EZI2C_EzI2CSetAddress1
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .text.EZI2C_EzI2CGetAddress1
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .text.EZI2C_EzI2CSetReadBoundaryBuffer1
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .text.LED11_SetDriveMode
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .text.LED11_Read
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .text.LED11_ReadDataReg
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .text.LED11_SetInterruptMode
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .text.LED11_ClearInterrupt
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_Interrupt
+                0x00000000        0x4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_GetVector
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_GetPriority
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_GetState
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_Start
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_Stop
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_SetPending
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text.CapSense_ISR_ClearPending
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .bss           0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysClkImoStart
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysClkImoStop
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysClkWriteHfclkDirect
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysEnablePumpClock
+                0x00000000       0x34 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysClkGetSysclkSource
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysClkWriteSysclkDiv
+                0x00000000       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysClkWriteHfclkDiv
+                0x00000000       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysGetResetReason
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyDisableInts
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyEnableInts
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyIntGetState
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyIntSetPending
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyIntSetSysVector
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyIntGetSysVector
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyIntGetVector
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyIntGetPriority
+                0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySoftwareReset
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyDelayFreq
+                0x00000000       0x4c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickStop
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickEnableInterrupt
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickEnable
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickDisableInterrupt
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickSetReload
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickGetReload
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickGetValue
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickSetClockSource
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickGetClockSource
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickGetCountFlag
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickServiceCallbacks
+                0x00000000       0x28 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickClear
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickInit
+                0x00000000       0x44 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickStart
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickSetCallback
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CySysTickGetCallback
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text.CyGetUniqueId
+                0x00000000       0x70 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .bss           0x00000000        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkIloStart
+                0x00000000       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkIloStop
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkIloStartMeasurement
+                0x00000000       0x34 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkIloStopMeasurement
+                0x00000000       0x28 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkIloCompensate
+                0x00000000      0x10c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkWcoStart
+                0x00000000       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkWcoStop
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkWcoSetPowerMode
+                0x00000000       0x4c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysClkWcoClockOutSelect
+                0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtGetEnabledStatus
+                0x00000000       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtEnable
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtSetMatch
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtGetMatch
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtGetCount
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtSetIgnoreBits
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtGetIgnoreBits
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtClearInterrupt
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtMaskInterrupt
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtUnmaskInterrupt
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtSetInterruptCallback
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtGetInterruptCallback
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .text.CySysWdtIsr
+                0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .bss           0x00000000       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .text.CySysFlashClockBackup
+                0x00000000       0x64 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .text.CySysFlashClockConfig
+                0x00000000       0x54 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .text.CySysFlashClockRestore
+                0x00000000       0x64 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .text.CySysFlashWriteRow
+                0x00000000      0x118 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .text.CySysSFlashWriteUserRow
+                0x00000000      0x108 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .text          0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .data          0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .bss           0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .text          0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+ .data          0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+ .bss           0x00000000        0x0 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xr
+ram              0x20000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+START GROUP
+LOAD .\CortexM0p\ARM_GCC_541\Debug\main.o
+LOAD .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+LOAD .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+LOAD .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+LOAD .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a
+LOAD C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+START GROUP
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libc.a
+LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+                0x00000000                CY_APPL_ORIGIN = 0x0
+                0x00000080                CY_FLASH_ROW_SIZE = 0x80
+                0x00000001                CY_APPL_NUM = 0x1
+                0x00000001                CY_APPL_MAX = 0x1
+                0x00000040                CY_METADATA_SIZE = 0x40
+                0x00000000                CY_APPL_LOADABLE = 0x0
+                0x00000000                CY_CHECKSUM_EXCLUDE_SIZE = ALIGN (0x0, CY_FLASH_ROW_SIZE)
+                0x00000000                CY_APP_FOR_STACK_AND_COPIER = 0x0
+                [!provide]                PROVIDE (__cy_heap_start, _end)
+                0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
+                0x20001000                PROVIDE (__cy_stack, (ORIGIN (ram) + LENGTH (ram)))
+                [!provide]                PROVIDE (__cy_heap_end, (__cy_stack - 0x800))
+
+.cybootloader   0x00000000        0x0
+ *(.cybootloader)
+                0x00000000                appl1_start = CY_APPL_ORIGIN?CY_APPL_ORIGIN:ALIGN (CY_FLASH_ROW_SIZE)
+                0x00003f80                appl2_start = (appl1_start + ALIGN ((((LENGTH (rom) - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
+                0x00000000                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
+                0x00000001                cy_project_type_bootloader = (appl_start == 0x0)?0x1:0x0
+                0x00000000                cy_project_type_app_for_stack_and_copier = (CY_APP_FOR_STACK_AND_COPIER == 0x1)?0x1:0x0
+
+.text           0x00000000     0x23d6
+ CREATE_OBJECT_SYMBOLS
+                0x00000000                PROVIDE (__cy_interrupt_vector, RomVectors)
+ *(.romvectors)
+ .romvectors    0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                0x00000000                RomVectors
+                0x00000001                ASSERT ((. != __cy_interrupt_vector), No interrupt vector)
+                0x00000001                ASSERT (CY_APPL_ORIGIN?(SIZEOF (.cybootloader) <= CY_APPL_ORIGIN):0x1, Wrong image location)
+                0x00000010                PROVIDE (__cy_reset, Reset)
+ *(.text.Reset)
+ .text.Reset    0x00000010        0xc .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                0x00000010                Reset
+                0x00000001                ASSERT ((. != __cy_reset), No reset code)
+ *(.psocinit)
+ .psocinit      0x0000001c       0xe0 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000080                cyfitter_cfg
+                0x00000100                . = MAX (., 0x100)
+ *fill*         0x000000fc        0x4 
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000100       0x60 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .text.main     0x00000160      0x128 .\CortexM0p\ARM_GCC_541\Debug\main.o
+                0x00000160                main
+ .text.SetAnalogRoutingPumps
+                0x00000288       0x38 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+                0x00000288                SetAnalogRoutingPumps
+ .text.AnalogSetDefault
+                0x000002c0        0xc .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .text.IntDefaultHandler
+                0x000002cc       0x10 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                0x000002cc                IntDefaultHandler
+ .text.Start_c  0x000002dc       0x48 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                0x000002dc                Start_c
+ .text.initialize_psoc
+                0x00000324       0x40 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                0x00000324                initialize_psoc
+ .text.CapSense_Initialize
+                0x00000364       0x28 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+                0x00000364                CapSense_Initialize
+ .text.CapSense_Start
+                0x0000038c       0x34 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+                0x0000038c                CapSense_Start
+ .text.CapSense_ProcessAllWidgets
+                0x000003c0       0x44 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+                0x000003c0                CapSense_ProcessAllWidgets
+ .text.CapSense_DpInitialize
+                0x00000404       0x58 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                0x00000404                CapSense_DpInitialize
+ .text.CapSense_DpUpdateThresholds
+                0x0000045c       0x34 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                0x0000045c                CapSense_DpUpdateThresholds
+ .text.CapSense_DpUpdateDifferences
+                0x00000490       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                0x00000490                CapSense_DpUpdateDifferences
+ .text.CapSense_DpProcessCsdWidgetRawCounts
+                0x000004a8       0x5c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                0x000004a8                CapSense_DpProcessCsdWidgetRawCounts
+ .text.CapSense_DpProcessButton
+                0x00000504       0x64 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                0x00000504                CapSense_DpProcessButton
+ .text.CapSense_DpProcessCsdWidgetStatus
+                0x00000568       0x58 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                0x00000568                CapSense_DpProcessCsdWidgetStatus
+ .text.CapSense_DsInitialize
+                0x000005c0       0x78 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+                0x000005c0                CapSense_DsInitialize
+ .text.CapSense_IsWidgetActive
+                0x00000638       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+                0x00000638                CapSense_IsWidgetActive
+ .text.CapSense_TuInitialize
+                0x0000065c       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+                0x0000065c                CapSense_TuInitialize
+ .text.CapSense_RunTuner
+                0x00000670      0x118 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+                0x00000670                CapSense_RunTuner
+ .text.CapSense_FtInitializeBaselineChannel
+                0x00000788       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x00000788                CapSense_FtInitializeBaselineChannel
+ .text.CapSense_FtInitializeBaseline
+                0x000007a8       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x000007a8                CapSense_FtInitializeBaseline
+ .text.CapSense_InitializeSensorBaseline
+                0x000007c8       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x000007c8                CapSense_InitializeSensorBaseline
+ .text.CapSense_InitializeWidgetBaseline
+                0x000007e8       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x000007e8                CapSense_InitializeWidgetBaseline
+ .text.CapSense_InitializeAllBaselines
+                0x0000080c       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x0000080c                CapSense_InitializeAllBaselines
+ .text.CapSense_InitializeWidgetFilter
+                0x00000824       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x00000824                CapSense_InitializeWidgetFilter
+ .text.CapSense_InitializeAllFilters
+                0x00000864       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x00000864                CapSense_InitializeAllFilters
+ .text.CapSense_FtInitialize
+                0x0000087c        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x0000087c                CapSense_FtInitialize
+ .text.CapSense_FtIIR1stOrder
+                0x00000884       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x00000884                CapSense_FtIIR1stOrder
+ .text.CapSense_FtUpdateBaseline
+                0x00000898       0xa0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                0x00000898                CapSense_FtUpdateBaseline
+ .text.CapSense_SsCalcLfsrSize
+                0x00000938       0x84 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_SsCalcLfsrScale
+                0x000009bc       0x44 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_SsCSDDisableMode
+                0x00000a00       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_IsBusy
+                0x00000a24       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000a24                CapSense_IsBusy
+ .text.CapSense_SetupWidget
+                0x00000a34       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000a34                CapSense_SetupWidget
+ .text.CapSense_Scan
+                0x00000a74       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000a74                CapSense_Scan
+ .text.CapSense_ScanAllWidgets
+                0x00000aa0       0x48 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000aa0                CapSense_ScanAllWidgets
+ .text.CapSense_SsSwitchSensingMode
+                0x00000ae8       0x3c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000ae8                CapSense_SsSwitchSensingMode
+ .text.CapSense_SsSetIOsInDefaultState
+                0x00000b24       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000b24                CapSense_SsSetIOsInDefaultState
+ .text.CapSense_SsPostAllWidgetsScan
+                0x00000b64       0x78 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000b64                CapSense_SsPostAllWidgetsScan
+ .text.CapSense_SsSetModClkClockDivider
+                0x00000bdc       0x30 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000bdc                CapSense_SsSetModClkClockDivider
+ .text.CapSense_SsClearCSDSensors
+                0x00000c0c       0x38 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000c0c                CapSense_SsClearCSDSensors
+ .text.CapSense_SsCSDGetColSnsClkDivider
+                0x00000c44       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000c44                CapSense_SsCSDGetColSnsClkDivider
+ .text.CapSense_SsCSDCalcPrsSize
+                0x00000c54       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000c54                CapSense_SsCSDCalcPrsSize
+ .text.CapSense_SsSetWidgetSenseClkSrc
+                0x00000c78       0x3c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .text.CapSense_SsAutoTune
+                0x00000cb4      0x13c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000cb4                CapSense_SsAutoTune
+ .text.CapSense_SsInitializeSourceSenseClk
+                0x00000df0       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000df0                CapSense_SsInitializeSourceSenseClk
+ .text.CapSense_SsInitialize
+                0x00000e10       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000e10                CapSense_SsInitialize
+ .text.CapSense_BistDischargeExtCapacitors
+                0x00000e28       0x60 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x00000e28                CapSense_BistDischargeExtCapacitors
+ .text.CapSense_SsCSDSetModeSnsClockDivider
+                0x00000e88       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_SsCSDSetFilterDelay
+                0x00000e98       0x54 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_SsCSDConfigIDACs
+                0x00000eec       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_SsCSDSetSingleIdacMode
+                0x00000f08       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_SsCSDRestoreIdacMode
+                0x00000f34       0x30 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_SsCSDCalibrateCheck
+                0x00000f64       0x44 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_SsCSDInitialize
+                0x00000fa8      0x118 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00000fa8                CapSense_SsCSDInitialize
+ .text.CapSense_SsCSDSetUpIdacs
+                0x000010c0       0x4c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x000010c0                CapSense_SsCSDSetUpIdacs
+ .text.CapSense_SsCSDGetNumberOfConversions
+                0x0000110c       0x28 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x0000110c                CapSense_SsCSDGetNumberOfConversions
+ .text.CapSense_SsCSDConfigClock
+                0x00001134       0x3c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00001134                CapSense_SsCSDConfigClock
+ .text.CapSense_SsCSDCalculateScanDuration
+                0x00001170       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00001170                CapSense_SsCSDCalculateScanDuration
+ .text.CapSense_SsCSDStartSample
+                0x0000118c       0xf4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x0000118c                CapSense_SsCSDStartSample
+ .text.CapSense_CSDScanExt
+                0x00001280       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00001280                CapSense_CSDScanExt
+ .text.CapSense_CSDConnectSns
+                0x000012a0       0x34 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x000012a0                CapSense_CSDConnectSns
+ .text.CapSense_CSDScan
+                0x000012d4       0x70 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x000012d4                CapSense_CSDScan
+ .text.CapSense_SsCSDConnectSensorExt
+                0x00001344       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00001344                CapSense_SsCSDConnectSensorExt
+ .text.CapSense_CSDDisconnectSns
+                0x00001368       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00001368                CapSense_CSDDisconnectSns
+ .text.CapSense_SsCSDElectrodeCheck
+                0x000013a8       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x000013a8                CapSense_SsCSDElectrodeCheck
+ .text.CapSense_CSDSetupWidget
+                0x000013cc       0x54 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x000013cc                CapSense_CSDSetupWidget
+ .text.CapSense_CSDSetupWidgetExt
+                0x00001420       0x6c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00001420                CapSense_CSDSetupWidgetExt
+ .text.CapSense_SsCSDCalibrateOneSensor
+                0x0000148c       0xe8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .text.CapSense_CSDCalibrateWidget
+                0x00001574      0x108 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x00001574                CapSense_CSDCalibrateWidget
+ .text.EZI2C_ScbEnableIntr
+                0x0000167c        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .text.EZI2C_Init
+                0x00001688        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+                0x00001688                EZI2C_Init
+ .text.EZI2C_Enable
+                0x00001690       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+                0x00001690                EZI2C_Enable
+ .text.EZI2C_Start
+                0x000016a8       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+                0x000016a8                EZI2C_Start
+ .text.EZI2C_EzI2CInit
+                0x000016c8       0xc4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+                0x000016c8                EZI2C_EzI2CInit
+ .text.EZI2C_EzI2CSetBuffer1
+                0x0000178c       0x30 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+                0x0000178c                EZI2C_EzI2CSetBuffer1
+ .text.EZI2C_EZI2C_STRETCH_ISR
+                0x000017bc      0x350 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+                0x000017bc                EZI2C_EZI2C_STRETCH_ISR
+ .text.LED11_Write
+                0x00001b0c       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+                0x00001b0c                LED11_Write
+ .text.CapSense_ISR_SetVector
+                0x00001b24        0xc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+                0x00001b24                CapSense_ISR_SetVector
+ .text.CapSense_ISR_SetPriority
+                0x00001b30       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+                0x00001b30                CapSense_ISR_SetPriority
+ .text.CapSense_ISR_Enable
+                0x00001b54       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+                0x00001b54                CapSense_ISR_Enable
+ .text.CapSense_ISR_Disable
+                0x00001b64       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+                0x00001b64                CapSense_ISR_Disable
+ .text.CapSense_ISR_StartEx
+                0x00001b74       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+                0x00001b74                CapSense_ISR_StartEx
+ .text.CySysClkImoDisableWcoLock
+                0x00001b90       0x4c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001b90                CySysClkImoDisableWcoLock
+ .text.CySysClkImoGetWcoLock
+                0x00001bdc       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001bdc                CySysClkImoGetWcoLock
+ .text.CyIntEnable
+                0x00001bf0       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001bf0                CyIntEnable
+ .text.CyIntDisable
+                0x00001c04       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001c04                CyIntDisable
+ .text.CyIntClearPending
+                0x00001c18       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001c18                CyIntClearPending
+ .text.CyHalt   0x00001c2c        0x4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001c2c                CyHalt
+ .text.CyIntSetVector
+                0x00001c30       0x24 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001c30                CyIntSetVector
+ .text.CyIntSetPriority
+                0x00001c54       0x4c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001c54                CyIntSetPriority
+ .text.CyDelay  0x00001ca0       0x30 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001ca0                CyDelay
+ .text.CySysClkImoEnableWcoLock
+                0x00001cd0       0xd0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001cd0                CySysClkImoEnableWcoLock
+ .text.CySysClkWriteImoFreq
+                0x00001da0       0xd8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001da0                CySysClkWriteImoFreq
+ .text.CyDelayUs
+                0x00001e78       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x00001e78                CyDelayUs
+ .text.CySysClkWcoEnabled
+                0x00001e8c       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+                0x00001e8c                CySysClkWcoEnabled
+ .text.CySysWdtDisable
+                0x00001ea0       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+                0x00001ea0                CySysWdtDisable
+ .text          0x00001eb0       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+                0x00001eb0                CyDelayCycles
+                0x00001ec2                CyEnterCriticalSection
+                0x00001eca                CyExitCriticalSection
+ .text.CapSense_SsCSDPostScan
+                0x00001ed0       0x50 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .text.CapSense_SsCSDInitNextScan
+                0x00001f20       0xa8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .text.CapSense_CSDPostSingleScan
+                0x00001fc8       0x2c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+                0x00001fc8                CapSense_CSDPostSingleScan
+ .text.CapSense_CSDPostMultiScan
+                0x00001ff4       0x44 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+                0x00001ff4                CapSense_CSDPostMultiScan
+ .text.CySysFlashSetWaitCycles
+                0x00002038       0x54 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+                0x00002038                CySysFlashSetWaitCycles
+ .text.SmartSense_TunePrescalers
+                0x0000208c       0x60 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+                0x0000208c                SmartSense_TunePrescalers
+ .text.SmartSense_TuneSensitivity
+                0x000020ec       0x70 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+                0x000020ec                SmartSense_TuneSensitivity
+ .text.SmartSense_UpdateThresholds
+                0x0000215c       0x42 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+                0x0000215c                SmartSense_UpdateThresholds
+ .text.SmartSense_InitializeNoiseEnvelope
+                0x0000219e       0x18 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+                0x0000219e                SmartSense_InitializeNoiseEnvelope
+ .text.SmartSense_RunNoiseEnvelope
+                0x000021b6       0x8e C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+                0x000021b6                SmartSense_RunNoiseEnvelope
+ .text          0x00002244      0x114 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+                0x00002244                __aeabi_uidiv
+                0x00002244                __udivsi3
+                0x00002350                __aeabi_uidivmod
+ .text          0x00002358        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00002358                __aeabi_idiv0
+                0x00002358                __aeabi_ldiv0
+ .text.__errno  0x0000235c        0xc c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+                0x0000235c                __errno
+ .text.__libc_init_array
+                0x00002368       0x4c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+                0x00002368                __libc_init_array
+ .text.memcpy   0x000023b4       0x12 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
+                0x000023b4                memcpy
+ .text.memset   0x000023c6       0x10 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+                0x000023c6                memset
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000023d6        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000023d6        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000023d6        0x0 linker stubs
+ *(.bootloader)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+
+.v4_bx          0x000023d8        0x0
+ .v4_bx         0x000023d8        0x0 linker stubs
+
+.iplt           0x000023d8        0x0
+ .iplt          0x000023d8        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x000023d8        0x4
+ *(.eh_frame)
+ .eh_frame      0x000023d8        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .eh_frame      0x000023d8        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+                [!provide]                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000023dc                __exidx_end = .
+
+.rodata         0x000023dc      0x4fc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000023dc      0x4a4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+                0x000023dc                CapSense_ramIdacInit
+                0x000023ec                CapSense_dsFlash
+                0x000025cc                CapSense_ramWidgetInit
+                0x000026dc                CapSense_ioList
+ .rodata        0x00002880       0x1c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .rodata        0x0000289c        0x1 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x0000289c                CapSense_scanFreqIndex
+ .rodata.str1.1
+                0x0000289d        0x2 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x000028a0                . = ALIGN (0x4)
+ *fill*         0x0000289f        0x1 
+ *(.init)
+ .init          0x000028a0        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x000028a0                _init
+ .init          0x000028a4        0x8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x000028ac                . = ALIGN (0x4)
+                0x000028ac                __preinit_array_start = .
+ *(.preinit_array)
+                0x000028ac                __preinit_array_end = .
+                0x000028ac                . = ALIGN (0x4)
+                0x000028ac                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x000028ac        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .init_array    0x000028b0        0x4 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                0x000028b4                __init_array_end = .
+                0x000028b4                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x000028b4        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x000028b4                _fini
+ .fini          0x000028b8        0x8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x000028c0                . = ALIGN (0x4)
+                0x000028c0                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x000028c0        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x000028c4                __fini_array_end = .
+                0x000028c4                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x000028c4                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x000028c4                . = ALIGN (0x4)
+                0x000028c4                __cy_regions = .
+                0x000028c4        0x4 LONG 0x28d8 __cy_region_init_ram
+                0x000028c8        0x4 LONG 0x20000080 __cy_region_start_data
+                0x000028cc        0x4 LONG 0x88 __cy_region_init_size_ram
+                0x000028d0        0x4 LONG 0x320 __cy_region_zero_size_ram
+                0x000028d4                __cy_regions_end = .
+                0x000028d8                . = ALIGN (0x8)
+ *fill*         0x000028d4        0x4 
+                0x000028d8                _etext = .
+
+.cy_checksum_exclude
+                0x000028d8        0x0
+ *(.cy_checksum_exclude)
+
+.ramvectors     0x20000000       0x80
+                0x20000000                __cy_region_start_ram = .
+ *(.ramvectors)
+ .ramvectors    0x20000000       0x80 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                0x20000000                CyRamVectors
+
+.noinit
+ *(.noinit)
+
+.data           0x20000080       0x88 load address 0x000028d8
+                0x20000080                __cy_region_start_data = .
+ *(.jcr)
+ .jcr           0x20000080        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .jcr           0x20000080        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x20000084        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                0x20000084                CapSense_configCsd
+                0x20000088                CapSense_calibratedIdac
+                0x2000008a                CapSense_calibratedRawcount
+ .data          0x2000008c       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                0x2000008c                CySysClkPumpConfig
+                0x20000090                cydelay32kMs
+                0x20000094                cydelayFreqKhz
+                0x20000098                cydelayFreqMhz
+                0x2000009c                cydelayFreqHz
+ .data.impure_data
+                0x200000a0       0x60 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000100        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x20000100                _impure_ptr
+                0x20000108                . = ALIGN (0x8)
+ *fill*         0x20000104        0x4 
+ *(.ram)
+                0x20000108                _edata = .
+
+.igot.plt       0x20000108        0x0 load address 0x00002960
+ .igot.plt      0x20000108        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+
+.bss            0x20000108      0x320 load address 0x00002960
+                0x20000108                PROVIDE (__bss_start__, .)
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20000108       0x1c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .bss           0x20000124        0x1 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ *fill*         0x20000125        0x3 
+ .bss           0x20000128       0xed .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ *fill*         0x20000215        0x3 
+ .bss           0x20000218        0x4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .bss           0x2000021c        0x4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x2000021c                CapSense_currentSenseMethod
+                0x2000021d                CapSense_requestScanAllWidget
+                0x2000021e                CapSense_widgetIndex
+                0x2000021f                CapSense_sensorIndex
+ .bss           0x20000220        0x1 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ *fill*         0x20000221        0x3 
+ .bss           0x20000224        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+                0x20000224                EZI2C_initVar
+                0x20000228                EZI2C_customIntrHandler
+ .bss           0x2000022c        0x2 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ *(COMMON)
+ *fill*         0x2000022e        0x2 
+ COMMON         0x20000230      0x1d8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+                0x20000230                CapSense_dsRam
+ COMMON         0x20000408        0x8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                0x20000408                CapSense_curRamSnsPtr
+                0x2000040c                CapSense_curSnsIOPtr
+ COMMON         0x20000410       0x12 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+                0x20000410                EZI2C_offsetBuf1
+                0x20000412                EZI2C_indexBuf1
+                0x20000414                EZI2C_fsmState
+                0x20000416                EZI2C_protectBuf1
+                0x20000418                EZI2C_curStatus
+                0x2000041c                EZI2C_dataBuffer1
+                0x20000420                EZI2C_bufSizeBuf1
+                0x20000428                . = ALIGN (0x8)
+ *fill*         0x20000422        0x6 
+ *(.ram.b)
+                0x20000428                _end = .
+                0x20000428                __end = .
+                0x20000428                PROVIDE (end, .)
+                0x20000428                PROVIDE (__bss_end__, .)
+                0x000028d8                __cy_region_init_ram = LOADADDR (.data)
+                0x00000088                __cy_region_init_size_ram = (_edata - ADDR (.data))
+                0x00000320                __cy_region_zero_size_ram = (_end - _edata)
+
+.heap           0x20000428       0x80 load address 0x00002960
+                0x20000428                . = _end
+                0x200004a8                . = (. + 0x80)
+ *fill*         0x20000428       0x80 
+                0x200004a8                __cy_heap_limit = .
+
+.stack          0x20000800      0x800
+                0x20000800                __cy_stack_limit = .
+                0x20001000                . = (. + 0x800)
+ *fill*         0x20000800      0x800 
+                0x00000001                ASSERT ((__cy_stack_limit >= __cy_heap_limit), region RAM overflowed with stack)
+                0x00000000                cy_checksum_exclude_size = (CY_APPL_LOADABLE == 0x1)?SIZEOF (.cy_checksum_exclude):0x0
+                0x00000001                ASSERT ((cy_checksum_exclude_size <= CY_CHECKSUM_EXCLUDE_SIZE), CY_BOOT: Section .cy_checksum_exclude size exceedes specified limit.)
+                0x00007fc0                cyloadermeta_start = (cy_project_type_bootloader || cy_project_type_app_for_stack_and_copier)?(LENGTH (rom) - CY_METADATA_SIZE):0xf0000000
+
+.cyloadermeta
+ *(.cyloadermeta)
+                0x00007fc0                cyloadablemeta_start = cy_project_type_app_for_stack_and_copier?((LENGTH (rom) - CY_FLASH_ROW_SIZE) - CY_METADATA_SIZE):((LENGTH (rom) - (CY_FLASH_ROW_SIZE * (CY_APPL_NUM - 0x1))) - CY_METADATA_SIZE)
+
+.cyloadablemeta
+ *(.cyloadablemeta)
+
+.cyflashprotect
+                0x90400000       0x20
+ *(.cyflashprotect)
+ .cyflashprotect
+                0x90400000       0x20 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+                0x90400000                cy_meta_flashprotect
+
+.cymeta         0x90500000        0xc
+ *(.cymeta)
+ .cymeta        0x90500000        0xc .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+                0x90500000                cy_metadata
+
+.cychipprotect  0x90600000        0x1
+ *(.cychipprotect)
+ .cychipprotect
+                0x90600000        0x1 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+                0x90600000                cy_meta_chipprotect
+
+.rel.dyn        0x00002960        0x0 load address 0x90600004
+ .rel.iplt      0x00002960        0x0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x920
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .debug_aranges
+                0x00000020       0x38 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_aranges
+                0x00000058       0x18 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .debug_aranges
+                0x00000070       0x48 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .debug_aranges
+                0x000000b8       0x68 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .debug_aranges
+                0x00000120       0x50 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .debug_aranges
+                0x00000170       0x50 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .debug_aranges
+                0x000001c0       0x28 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .debug_aranges
+                0x000001e8       0x90 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .debug_aranges
+                0x00000278       0xe0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .debug_aranges
+                0x00000358       0xd0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .debug_aranges
+                0x00000428       0x60 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .debug_aranges
+                0x00000488       0x50 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .debug_aranges
+                0x000004d8       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .debug_aranges
+                0x000004f8       0x48 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .debug_aranges
+                0x00000540       0x80 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .debug_aranges
+                0x000005c0      0x190 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .debug_aranges
+                0x00000750       0xd8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .debug_aranges
+                0x00000828       0x20 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x00000848       0x38 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .debug_aranges
+                0x00000880       0x48 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .debug_aranges
+                0x000008c8       0x28 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .debug_aranges
+                0x000008f0       0x30 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x98f9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x774 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .debug_info    0x00000774      0x168 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x000008dc       0xf8 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x000009d4      0x3a5 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .debug_info    0x00000d79      0xba4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .debug_info    0x0000191d      0xcd9 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .debug_info    0x000025f6      0xdfd .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .debug_info    0x000033f3      0x7cf .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .debug_info    0x00003bc2      0xa12 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .debug_info    0x000045d4     0x12e9 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .debug_info    0x000058bd     0x117e .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .debug_info    0x00006a3b      0x298 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .debug_info    0x00006cd3      0x319 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .debug_info    0x00006fec      0x1e4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .debug_info    0x000071d0      0x19d .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .debug_info    0x0000736d      0x305 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .debug_info    0x00007672      0xbcd .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .debug_info    0x0000823f      0x444 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .debug_info    0x00008683       0xb7 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+ .debug_info    0x0000873a      0x92c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .debug_info    0x00009066      0x417 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .debug_info    0x0000947d      0x228 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .debug_info    0x000096a5      0x254 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+
+.debug_abbrev   0x00000000     0x213c
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x129 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .debug_abbrev  0x00000129       0xdb .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_abbrev  0x00000204       0x5d .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x00000261      0x1d0 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .debug_abbrev  0x00000431      0x234 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .debug_abbrev  0x00000665      0x1de .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .debug_abbrev  0x00000843      0x22c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .debug_abbrev  0x00000a6f      0x182 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .debug_abbrev  0x00000bf1      0x213 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .debug_abbrev  0x00000e04      0x266 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .debug_abbrev  0x0000106a      0x294 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .debug_abbrev  0x000012fe      0x118 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .debug_abbrev  0x00001416      0x13a .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .debug_abbrev  0x00001550       0xbf .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .debug_abbrev  0x0000160f       0xc8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .debug_abbrev  0x000016d7      0x19a .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .debug_abbrev  0x00001871      0x202 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .debug_abbrev  0x00001a73      0x1af .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .debug_abbrev  0x00001c22       0x14 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x00001c36      0x194 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .debug_abbrev  0x00001dca      0x19e .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .debug_abbrev  0x00001f68      0x10e C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .debug_abbrev  0x00002076       0xc6 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+
+.debug_line     0x00000000     0x2aa1
+ *(.debug_line)
+ .debug_line    0x00000000      0x10d .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .debug_line    0x0000010d       0xba .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x000001c7      0x141 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x00000308      0x247 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .debug_line    0x0000054f      0x228 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .debug_line    0x00000777      0x329 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .debug_line    0x00000aa0      0x1d9 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .debug_line    0x00000c79      0x138 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .debug_line    0x00000db1      0x24f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .debug_line    0x00001000      0x4c0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .debug_line    0x000014c0      0x3f8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .debug_line    0x000018b8      0x128 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .debug_line    0x000019e0      0x103 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .debug_line    0x00001ae3      0x13a .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .debug_line    0x00001c1d       0xbd .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .debug_line    0x00001cda      0x158 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .debug_line    0x00001e32      0x4dc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .debug_line    0x0000230e      0x284 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .debug_line    0x00002592       0x68 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+ .debug_line    0x000025fa      0x151 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .debug_line    0x0000274b      0x1e1 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .debug_line    0x0000292c       0x9e C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .debug_line    0x000029ca       0xd7 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+
+.debug_frame    0x00000000     0x1784
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .debug_frame   0x0000002c       0x74 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_frame   0x000000a0       0xbc .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .debug_frame   0x0000015c      0x118 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .debug_frame   0x00000274      0x100 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .debug_frame   0x00000374       0xc0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .debug_frame   0x00000434       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .debug_frame   0x00000474      0x1d0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .debug_frame   0x00000644      0x2b8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .debug_frame   0x000008fc      0x2a4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .debug_frame   0x00000ba0       0xe8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .debug_frame   0x00000c88       0xa8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .debug_frame   0x00000d30       0x30 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .debug_frame   0x00000d60       0x70 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .debug_frame   0x00000dd0      0x110 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .debug_frame   0x00000ee0      0x418 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .debug_frame   0x000012f8      0x1dc .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .debug_frame   0x000014d4       0x78 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .debug_frame   0x0000154c       0xa8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .debug_frame   0x000015f4       0x5c C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .debug_frame   0x00001650       0x58 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+ .debug_frame   0x000016a8       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000016c8       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x000016e8       0x28 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x00001710       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000173c       0x28 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00001764       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x2fc6
+ *(.debug_str)
+ .debug_str     0x00000000      0x4c6 .\CortexM0p\ARM_GCC_541\Debug\main.o
+                                0x50d (size before relaxing)
+ .debug_str     0x000004c6       0x91 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x244 (size before relaxing)
+ .debug_str     0x00000557       0x63 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+                                0x1f3 (size before relaxing)
+ .debug_str     0x000005ba      0x155 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+                                0x33a (size before relaxing)
+ .debug_str     0x0000070f      0x51c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+                                0x9c5 (size before relaxing)
+ .debug_str     0x00000c2b      0x1df .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+                                0x957 (size before relaxing)
+ .debug_str     0x00000e0a      0x4b5 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+                                0xb54 (size before relaxing)
+ .debug_str     0x000012bf      0x15f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+                                0x726 (size before relaxing)
+ .debug_str     0x0000141e      0x256 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+                                0x809 (size before relaxing)
+ .debug_str     0x00001674      0x624 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+                                0xd7b (size before relaxing)
+ .debug_str     0x00001c98      0x356 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+                                0xc73 (size before relaxing)
+ .debug_str     0x00001fee      0x119 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+                                0x309 (size before relaxing)
+ .debug_str     0x00002107      0x145 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+                                0x363 (size before relaxing)
+ .debug_str     0x0000224c       0x97 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+                                0x2f9 (size before relaxing)
+ .debug_str     0x000022e3       0x9f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+                                0x261 (size before relaxing)
+ .debug_str     0x00002382      0x14b .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+                                0x377 (size before relaxing)
+ .debug_str     0x000024cd      0x493 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+                                0x736 (size before relaxing)
+ .debug_str     0x00002960      0x2d0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+                                0x4e5 (size before relaxing)
+ .debug_str     0x00002c30       0xa4 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+                                0x7a9 (size before relaxing)
+ .debug_str     0x00002cd4      0x11d .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+                                0x34d (size before relaxing)
+ .debug_str     0x00002df1      0x168 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+                                0x29a (size before relaxing)
+ .debug_str     0x00002f59       0x6d C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+                                0x2fe (size before relaxing)
+
+.debug_loc      0x00000000     0x3d23
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x35 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_loc     0x00000035      0x14f .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .debug_loc     0x00000184      0x3e5 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .debug_loc     0x00000569      0x5e8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .debug_loc     0x00000b51      0x3ba .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .debug_loc     0x00000f0b      0x176 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .debug_loc     0x00001081      0x8e6 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .debug_loc     0x00001967      0x82b .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .debug_loc     0x00002192      0x83c .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .debug_loc     0x000029ce       0x7e .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .debug_loc     0x00002a4c       0xec .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .debug_loc     0x00002b38      0x132 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .debug_loc     0x00002c6a       0xa2 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .debug_loc     0x00002d0c       0x82 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .debug_loc     0x00002d8e      0x5d9 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .debug_loc     0x00003367      0x354 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .debug_loc     0x000036bb       0xcf .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .debug_loc     0x0000378a      0x1bd .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .debug_loc     0x00003947      0x243 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .debug_loc     0x00003b8a      0x199 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000      0x7b0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .debug_ranges  0x00000010       0x28 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_ranges  0x00000038       0x38 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .debug_ranges  0x00000070       0x58 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .debug_ranges  0x000000c8       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .debug_ranges  0x00000108       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .debug_ranges  0x00000148       0x18 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .debug_ranges  0x00000160       0x80 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .debug_ranges  0x000001e0       0xd0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .debug_ranges  0x000002b0       0xc0 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .debug_ranges  0x00000370       0x50 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .debug_ranges  0x000003c0       0x40 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .debug_ranges  0x00000400       0x10 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .debug_ranges  0x00000410       0x38 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .debug_ranges  0x00000448       0x70 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .debug_ranges  0x000004b8      0x180 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .debug_ranges  0x00000638       0xc8 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .debug_ranges  0x00000700       0x28 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .debug_ranges  0x00000728       0x38 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .debug_ranges  0x00000760       0x30 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .debug_ranges  0x00000790       0x20 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e .\CortexM0p\ARM_GCC_541\Debug\main.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .comment       0x0000006e       0x6f .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .comment       0x0000006e       0x6f C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .comment       0x0000006e       0x6f C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x32 .\CortexM0p\ARM_GCC_541\Debug\main.o
+ .ARM.attributes
+                0x00000097       0x32 .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .ARM.attributes
+                0x000000c9       0x32 .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
+ .ARM.attributes
+                0x000000fb       0x32 .\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o
+ .ARM.attributes
+                0x0000012d       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Control.o)
+ .ARM.attributes
+                0x0000015f       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Processing.o)
+ .ARM.attributes
+                0x00000191       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Structure.o)
+ .ARM.attributes
+                0x000001c3       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Tuner.o)
+ .ARM.attributes
+                0x000001f5       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Filter.o)
+ .ARM.attributes
+                0x00000227       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_Sensing.o)
+ .ARM.attributes
+                0x00000259       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_SensingCSD_LL.o)
+ .ARM.attributes
+                0x0000028b       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C.o)
+ .ARM.attributes
+                0x000002bd       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C.o)
+ .ARM.attributes
+                0x000002ef       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(EZI2C_EZI2C_INT.o)
+ .ARM.attributes
+                0x00000321       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(LED11.o)
+ .ARM.attributes
+                0x00000353       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_ISR.o)
+ .ARM.attributes
+                0x00000385       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLib.o)
+ .ARM.attributes
+                0x000003b7       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyLFClk.o)
+ .ARM.attributes
+                0x000003e9       0x22 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyBootAsmGnu.o)
+ .ARM.attributes
+                0x0000040b       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CapSense_INT.o)
+ .ARM.attributes
+                0x0000043d       0x32 .\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.a(CyFlash.o)
+ .ARM.attributes
+                0x0000046f       0x32 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_LL.o)
+ .ARM.attributes
+                0x000004a1       0x32 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_GCCp.a(CapSense_SmartSense_SL.o)
+ .ARM.attributes
+                0x000004d3       0x1e c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000004f1       0x1e c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000050f       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000053b       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000567       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000593       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000005bf       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000005eb       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000617       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000643       0x1e c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(C:\Users\Admin\Documents\PSoC Creator\CE224899_PSoC4_CapSense_Hybrid_Buttons01\CapSense_15_Buttons.cydsn\CortexM0p\ARM_GCC_541\Debug\CapSense_15_Buttons.elf elf32-littlearm)

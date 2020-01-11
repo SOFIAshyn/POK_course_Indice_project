@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 1
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
    1              		.syntax unified
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
   28:Generated_Source\PSoC4/Motor_Control_Reg.c **** *  Write a byte to the Control Register.
   29:Generated_Source\PSoC4/Motor_Control_Reg.c **** *
   30:Generated_Source\PSoC4/Motor_Control_Reg.c **** * Parameters:
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 2
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 2
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
   31:Generated_Source\PSoC4/Motor_Control_Reg.c **** *  control:  The value to be assigned to the Control Register.
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
   58:Generated_Source\PSoC4/Motor_Control_Reg.c **** {
   55              		.loc 1 58 0
   56              		.cfi_startproc
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 3
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 3
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
   57              		@ args = 0, pretend = 0, frame = 0
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
  109 0043 05       		.byte	0x5
  110 0044 91010000 		.4byte	.LASF4
  111 0048 02       		.uleb128 0x2
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 4
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 4
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  112 0049 04       		.byte	0x4
@@ -238,7 +254,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
  166 00b7 01       		.byte	0x1
  167 00b8 25       		.byte	0x25
  168 00b9 6B000000 		.4byte	0x6b
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 5
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 5
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  169 00bd 01       		.uleb128 0x1
@@ -298,7 +318,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
  223 0027 00       		.byte	0
  224 0028 00       		.byte	0
  225 0029 04       		.uleb128 0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 6
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 6
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  226 002a 16       		.uleb128 0x16
@@ -358,7 +382,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
  280 0061 13       		.uleb128 0x13
  281 0062 02       		.uleb128 0x2
  282 0063 18       		.uleb128 0x18
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 7
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 7
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  283 0064 00       		.byte	0
@@ -418,7 +446,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
  335      00000201 
  335      FB0E0D00 
  335      01010101 
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 8
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 8
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  336              	.LASF9:
@@ -478,7 +510,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 1
  358      6E30312E 
  358      63796473 
  358      6E00
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cciE536T.s 			page 9
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccyKNdnb.s 			page 9
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  359              	.LASF14:

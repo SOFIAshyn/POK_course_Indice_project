@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\Design01.cyprj|184188ad-e25d-48d7-b7b9-4f53dd7a1cfc
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|800e57c9-1b66-4c1c-9457-9ef72d235669
 C:\Users\User\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|ce39e579-953a-4fd9-bd26-43170649c6a7
@@ -5,3 +6,12 @@ C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomp
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|a9ea86b7-97b7-44d9-9ade-10fcf513f8e8
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|426e877b-4ced-4152-9548-564182b281ec
 C:\Users\User\Documents\PSoC Creator\Workspace06\WithTimer.cydsn\WithTimer.cyprj|2ff3a617-5096-4b73-aa96-2225244539c1
+=======
+C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\Design01.cyprj|826f839c-490b-4885-838f-fda78790c6e5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|361ba761-8ca5-4bfb-a35b-807d1d413fc6
+C:\Users\User\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|8f449fa1-6e3f-41d2-9ea2-2ad0a47b446b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|769f4a43-a40b-45a8-8f7c-2e2a908ddf1c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|95b38795-2d04-4d7b-94ce-cfa8604b37b2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|563dc3e0-e665-4faf-b504-cb090f1e02b1
+C:\Users\User\Documents\PSoC Creator\Workspace06\WithTimer.cydsn\WithTimer.cyprj|137b878f-d4ff-4502-9bc7-216b0449409a
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45

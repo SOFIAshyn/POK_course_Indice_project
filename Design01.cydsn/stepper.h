@@ -18,6 +18,7 @@ typedef enum {
     DIR_CLOCKWISE
 } X_DIRECTION_ENUM;
 
+<<<<<<< HEAD
 typedef enum{
     MOTOR_1 = 0,
     MOTOR_2
@@ -27,6 +28,8 @@ typedef enum {
     DIR_DOWN = 0,
     DIR_UP
 } Y_DIRECTION_ENUM;
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 typedef enum {
     X_MOTOR_ORIGIN_COARSE,
@@ -45,6 +48,7 @@ typedef enum {
     X_MOTOR_ORIGIN_NOT_FOUND = ERR_X_MOTOR_ORIGIN_NOT_FOUND
 } X_MOTOR_STATE_ENUM;
 
+<<<<<<< HEAD
 typedef enum {
     Y_MOTOR_MOVE,
     Y_MOTOR_READY
@@ -67,6 +71,27 @@ typedef enum {
 
 // кількість імпульсів на повний оберт двигуна
 #define X_IMPULSES_ROUND    (X_MICROSTEP * X_IMPULSES_PER_REV) 
+=======
+
+/******* ВИЗНАЧЕННЯ ГЛОБАЛЬНИХ КОНСТАНТ **************************************/
+
+#define ACCEL_ARRAY_SIZE    (6270u)     // елементів масиву розгону
+
+#define TIMER_FREQUENCY     (6000000.0)  // Гц
+
+#define X_BIG_GEAR_TEETH    (360u)                    // кількість зубів великої шестерні
+#define X_SMALL_GEAR_TETH   (20u)                     // кількість зубів малої шестерні
+#define X_IMPULSES_PER_REV  (200u)                   // кількість імпульсів на оборот двигуна
+
+#define FULL_ROUND_TIME     (1.0)                     // час повного обороту платформи (на повній швидкості)
+#define ACCELERATION_TIME   (1)                     // час прискорення в секундах
+
+#define ATTEMPS_TO_FIND_ZERO (4)                      // кількість спроб знайти центр датчика
+
+// кількість імпульсів на повний оберт платформи
+#define X_IMPULSES_ROUND    ((X_BIG_GEAR_TEETH / X_SMALL_GEAR_TETH) * X_IMPULSES_PER_REV) 
+#define X_IMPULSES_TEETH    (X_IMPULSES_PER_REV / X_SMALL_GEAR_TETH)
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
 #define FULL_SPEED          ((float)X_IMPULSES_ROUND / (float)FULL_ROUND_TIME)  // максимальна швидкість
@@ -88,6 +113,10 @@ extern volatile uint32_t xStepsRemaining;
 // виконано кроків по обох осях
 extern volatile uint32_t xStepsExecuted; 
 extern volatile uint32_t xStepsExecutedSpiral; 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 // поточний стан моторів
 extern volatile X_MOTOR_STATE_ENUM Stepper_xMotorState;
 
@@ -96,7 +125,11 @@ extern volatile X_MOTOR_STATE_ENUM Stepper_xMotorState;
 // Ініціалізувати підсистему
 bool Stepper_Init(void);
 
+<<<<<<< HEAD
 void Stepper_MoveX(bool nonBlocking, MOTOR_ENUM motor ,X_DIRECTION_ENUM direction, uint32_t steps);
+=======
+void Stepper_MoveX(bool nonBlocking, X_DIRECTION_ENUM direction, uint32_t steps);
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 void Stepper_StopX(void);
 
 #endif /* _STEPPER_H_ */

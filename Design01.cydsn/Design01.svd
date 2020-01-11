@@ -5793,7 +5793,32 @@
       </registers>
     </peripheral>
     <peripheral>
+<<<<<<< HEAD
       <name>Step_Counter</name>
+=======
+      <name>Motor_Control_Reg</name>
+      <description>No description available</description>
+      <baseAddress>0x0</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x0</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <registers>
+        <register>
+          <name>Motor_Control_Reg_CONTROL_REG</name>
+          <description>No description available</description>
+          <addressOffset>0x400F0072</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+        </register>
+      </registers>
+    </peripheral>
+    <peripheral>
+      <name>X_Counter</name>
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>
       <addressBlock>
@@ -5850,6 +5875,7 @@
       </registers>
     </peripheral>
     <peripheral>
+<<<<<<< HEAD
       <name>Motor_Control_Reg</name>
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>
@@ -5871,6 +5897,8 @@
       </registers>
     </peripheral>
     <peripheral>
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
       <name>Counter_Motor_Steps</name>
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>

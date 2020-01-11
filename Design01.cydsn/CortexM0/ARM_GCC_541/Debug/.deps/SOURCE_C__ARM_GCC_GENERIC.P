@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/LCD.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/LCD_LCDPort.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/LCD_LCDPort_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Step_Counter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/project.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/main.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.h 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h : 
@@ -20,26 +21,143 @@ C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Sourc
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h : 
 
+=======
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Clock_1.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Cm0Start.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Cm0Start.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/cyapicallbacks.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/cyapicallbacks.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Counter_Motor_Steps.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Counter_Motor_Steps_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/CyDMA.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/CyFlash.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/CyLFClk.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/CyLib.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Motor_Control_Reg.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Motor_Control_Reg_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_DIR_X.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.c : 
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_aliases.h : 
 
+<<<<<<< HEAD
+=======
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_DIR_X_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_DIR_Y.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.c : 
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_aliases.h : 
 
+<<<<<<< HEAD
+=======
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_DIR_Y_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_EN.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.c : 
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_aliases.h : 
 
+<<<<<<< HEAD
+=======
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_EN_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_STEP_X.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.c : 
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_aliases.h : 
 
+<<<<<<< HEAD
+=======
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_STEP_X_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_STEP_Y.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.c : 
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_aliases.h : 
 
+<<<<<<< HEAD
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Step_Counter.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.h : 
@@ -69,14 +187,82 @@ C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Sourc
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h : 
+=======
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_STEP_Y_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/X_Counter.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/X_Counter_PM.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter_PM.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter_PM.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/X_Interrupt.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/cyapicallbacks.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cyPm.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cy_em_eeprom.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cyfitter_cfg.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/cyapicallbacks.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cymetadata.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cymetadata.c 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cymetadata.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/cyutils.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyutils.c 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyutils.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/project.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/main.c 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/project.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/main.c : 
 
+<<<<<<< HEAD
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.h : 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/stepper.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/LCD.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/LCD_LCDPort.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/LCD_LCDPort_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Step_Counter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/project.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.h 
 
 C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.c : 
 
+=======
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/CortexM0/ARM_GCC_541/Debug/stepper.o : C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/project.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Clock_1.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Counter_Motor_Steps.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Motor_Control_Reg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_DIR_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_EN_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_X_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/Pin_STEP_Y_aliases.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Counter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/X_Interrupt.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.c C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.h 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.c : 
+
+C:/Users/User/Documents/PSoC\ Creator/Workspace06/Design01.cydsn/stepper.h : 
+
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45

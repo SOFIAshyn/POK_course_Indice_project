@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\PSoC Creator\CE224899_PSoC4_CapSense_Hybrid_Buttons01\CapSense_15_Buttons.cydsn\CapSense_15_Buttons.cyprj|ef443f05-2fe8-470c-b4cb-5fd63dcb535b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|8bd60536-f544-4ec9-9af9-ccfaf801264a
+C:\Users\Admin\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|f75c9daf-58fa-44be-b25b-9b63771bfcbb
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a8ba0f97-5743-4eaf-b229-df5530407502
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|68584707-ef9a-4f7c-81de-dffaeb78e36b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|a88bc3ca-c4e8-4dbf-88df-0f4950f6ddd5
+C:\Users\Admin\Documents\PSoC Creator\CE224899_PSoC4_CapSense_Hybrid_Buttons01\CE224899_PSoC4_CapSense_Hybrid_Buttons01.cydsn\CE224899_PSoC4_CapSense_Hybrid_Buttons01.cyprj|21bdd29d-8fb7-4ad5-b314-b5dc3e5b08ce

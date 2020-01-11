@@ -25,9 +25,15 @@
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Pin_EN.h" value="HEADER;;;;;Pin_EN" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Pin_EN_aliases.h" value="HEADER;;;;;Pin_EN" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Pin_EN_PM.c" value="SOURCE_C;CortexM0;;;;Pin_EN" />
+<<<<<<< HEAD
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Step_Counter.c" value="SOURCE_C;CortexM0;;;;Step_Counter" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Step_Counter.h" value="HEADER;;;;;Step_Counter" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Step_Counter_PM.c" value="SOURCE_C;CortexM0;;;;Step_Counter" />
+=======
+  <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\X_Counter.c" value="SOURCE_C;CortexM0;;;;X_Counter" />
+  <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\X_Counter.h" value="HEADER;;;;;X_Counter" />
+  <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\X_Counter_PM.c" value="SOURCE_C;CortexM0;;;;X_Counter" />
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Clock_1.c" value="SOURCE_C;CortexM0;;;;Clock_1" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Clock_1.h" value="HEADER;;;;;Clock_1" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\X_Interrupt.c" value="SOURCE_C;CortexM0;;;;X_Interrupt" />
@@ -46,6 +52,7 @@
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Pin_DIR_Y.h" value="HEADER;;;;;Pin_DIR_Y" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Pin_DIR_Y_aliases.h" value="HEADER;;;;;Pin_DIR_Y" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\Pin_DIR_Y_PM.c" value="SOURCE_C;CortexM0;;;;Pin_DIR_Y" />
+<<<<<<< HEAD
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\LCD_BarGraph.c" value="SOURCE_C;CortexM0;;;;LCD" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\LCD.c" value="SOURCE_C;CortexM0;;;;LCD" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\LCD.h" value="HEADER;;;;;LCD" />
@@ -54,6 +61,8 @@
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\LCD_LCDPort.h" value="HEADER;;;;;LCD_LCDPort" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\LCD_LCDPort_aliases.h" value="HEADER;;;;;LCD_LCDPort" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\LCD_LCDPort_PM.c" value="SOURCE_C;CortexM0;;;;LCD_LCDPort" />
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\cy_em_eeprom.c" value="SOURCE_C;CortexM0;;;;Em_EEPROM_Dynamic" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\cy_em_eeprom.h" value="HEADER;;;;;Em_EEPROM_Dynamic" />
   <file name="C:\Users\User\Documents\PSoC Creator\Workspace06\Design01.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />

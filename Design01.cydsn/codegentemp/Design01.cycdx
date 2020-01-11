@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
+<<<<<<< HEAD
   <block name="Pin_STEP_Y" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Pin_DIR_Y" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="not_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="cy_tff_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="cy_constant_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+=======
+  <block name="not_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Pin_STEP_Y" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_tff_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_constant_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Pin_DIR_Y" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
   <block name="DMAC" BASE="0x0" SIZE="0x0" desc="DMAC Registers" visible="true" hidden="false">
     <register name="DMAC_CH_CTL17" address="0x40000000" bitWidth="32" desc="DMA channel 17 control register" hidden="true">
       <field name="ENABLED" from="31" to="31" access="RW" resetVal="" desc="Channel enable control." hidden="false">
@@ -1385,6 +1393,7 @@
     </register>
   </block>
   <block name="cy_lfclk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+<<<<<<< HEAD
   <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="LCD" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="LCDPort" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -1392,6 +1401,18 @@
   <block name="Em_EEPROM_Dynamic" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="and_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Step_Counter" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+=======
+  <block name="Em_EEPROM_Dynamic" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Motor_Control_Reg" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <register name="Motor_Control_Reg_CONTROL_REG" address="0x400F0072" bitWidth="8" desc="" hidden="false" />
+  </block>
+  <block name="Pin_EN" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="and_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Pin_STEP_X" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Pin_DIR_X" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="X_Counter" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     <block name="VMux_count" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="VMux_reload" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="VMux_start" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -1405,6 +1426,7 @@
     <register name="PERIOD" address="0x40200154" bitWidth="32" desc="Period value" hidden="false" />
     <register name="PERIOD_BUF" address="0x40200158" bitWidth="32" desc="Period buffer value" hidden="false" />
   </block>
+<<<<<<< HEAD
   <block name="Pin_EN" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Pin_STEP_X" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Pin_DIR_X" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -1412,6 +1434,8 @@
   <block name="Motor_Control_Reg" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <register name="Motor_Control_Reg_CONTROL_REG" address="0x400F0072" bitWidth="8" desc="" hidden="false" />
   </block>
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
   <block name="Counter_Motor_Steps" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="VMux_count" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="VMux_reload" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -1426,6 +1450,10 @@
     <register name="PERIOD" address="0x40200114" bitWidth="32" desc="Period value" hidden="false" />
     <register name="PERIOD_BUF" address="0x40200118" bitWidth="32" desc="Period buffer value" hidden="false" />
   </block>
+<<<<<<< HEAD
+=======
+  <block name="nand_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
   <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="X_Interrupt" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
 </blockRegMap>

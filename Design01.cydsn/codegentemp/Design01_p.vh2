@@ -1,5 +1,9 @@
 -- Project:   Design01
+<<<<<<< HEAD
 -- Generated: 01/10/2020 09:55:39
+=======
+-- Generated: 12/24/2019 16:17:43
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 -- PSoC Creator  4.2
 
 ENTITY Design01 IS
@@ -8,6 +12,7 @@ ENTITY Design01 IS
         Pin_DIR_X(0)_PAD : OUT std_ulogic;
         Pin_EN(0)_PAD : OUT std_ulogic;
         Pin_STEP_Y(0)_PAD : OUT std_ulogic;
+<<<<<<< HEAD
         Pin_DIR_Y(0)_PAD : OUT std_ulogic;
         \LCD:LCDPort(0)_PAD\ : OUT std_ulogic;
         \LCD:LCDPort(1)_PAD\ : OUT std_ulogic;
@@ -16,6 +21,9 @@ ENTITY Design01 IS
         \LCD:LCDPort(4)_PAD\ : OUT std_ulogic;
         \LCD:LCDPort(5)_PAD\ : OUT std_ulogic;
         \LCD:LCDPort(6)_PAD\ : OUT std_ulogic);
+=======
+        Pin_DIR_Y(0)_PAD : OUT std_ulogic);
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     ATTRIBUTE voltage_VDDA_CTB OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDDA_1 OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDDIO_0 OF __DEFAULT__ : ENTITY IS 3.3e0;
@@ -41,6 +49,12 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     SIGNAL ClockBlock_SysClk : bit;
     SIGNAL ClockBlock_WCO : bit;
     SIGNAL Net_2763 : bit;
+<<<<<<< HEAD
+=======
+    SIGNAL Net_2765 : bit;
+    SIGNAL Net_2767 : bit;
+    SIGNAL Net_2768 : bit;
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     SIGNAL Net_2769_ff7 : bit;
     ATTRIBUTE global_signal OF Net_2769_ff7 : SIGNAL IS true;
     SIGNAL Net_2769_ff8 : bit;
@@ -52,19 +66,27 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     SIGNAL Net_2817 : bit;
     SIGNAL Net_2818 : bit;
     SIGNAL Net_2823 : bit;
+<<<<<<< HEAD
+=======
+    SIGNAL Net_2825 : bit;
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     SIGNAL Net_2828 : bit;
     SIGNAL Net_2831 : bit;
     SIGNAL Net_2835 : bit;
     SIGNAL Net_2852 : bit;
+<<<<<<< HEAD
     SIGNAL Net_2876 : bit;
     SIGNAL Net_2877 : bit;
     SIGNAL Net_2878 : bit;
     SIGNAL Net_2879 : bit;
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     SIGNAL Pin_DIR_X(0)__PA : bit;
     SIGNAL Pin_DIR_Y(0)__PA : bit;
     SIGNAL Pin_EN(0)__PA : bit;
     SIGNAL Pin_STEP_X(0)__PA : bit;
     SIGNAL Pin_STEP_Y(0)__PA : bit;
+<<<<<<< HEAD
     SIGNAL \\\LCD:LCDPort(0)\\__PA\ : bit;
     SIGNAL \\\LCD:LCDPort(1)\\__PA\ : bit;
     SIGNAL \\\LCD:LCDPort(2)\\__PA\ : bit;
@@ -72,6 +94,8 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     SIGNAL \\\LCD:LCDPort(4)\\__PA\ : bit;
     SIGNAL \\\LCD:LCDPort(5)\\__PA\ : bit;
     SIGNAL \\\LCD:LCDPort(6)\\__PA\ : bit;
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     SIGNAL \Motor_Control_Reg:control_1\ : bit;
     SIGNAL \Motor_Control_Reg:control_2\ : bit;
     SIGNAL \Motor_Control_Reg:control_3\ : bit;
@@ -95,6 +119,7 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     ATTRIBUTE lib_model OF Pin_EN(0) : LABEL IS "iocell3";
     ATTRIBUTE Location OF Pin_EN(0) : LABEL IS "P0[5]";
     ATTRIBUTE lib_model OF Pin_STEP_Y(0) : LABEL IS "iocell4";
+<<<<<<< HEAD
     ATTRIBUTE Location OF Pin_STEP_Y(0) : LABEL IS "P1[6]";
     ATTRIBUTE lib_model OF Pin_DIR_Y(0) : LABEL IS "iocell5";
     ATTRIBUTE Location OF Pin_DIR_Y(0) : LABEL IS "P1[2]";
@@ -112,6 +137,10 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     ATTRIBUTE Location OF \LCD:LCDPort(5)\ : LABEL IS "P3[5]";
     ATTRIBUTE lib_model OF \LCD:LCDPort(6)\ : LABEL IS "iocell12";
     ATTRIBUTE Location OF \LCD:LCDPort(6)\ : LABEL IS "P3[6]";
+=======
+    ATTRIBUTE Location OF Pin_STEP_Y(0) : LABEL IS "P2[6]";
+    ATTRIBUTE lib_model OF Pin_DIR_Y(0) : LABEL IS "iocell5";
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     ATTRIBUTE lib_model OF Net_2831 : LABEL IS "macrocell1";
     ATTRIBUTE lib_model OF Net_2835 : LABEL IS "macrocell2";
     ATTRIBUTE lib_model OF \Motor_Control_Reg:Sync:ctrl_reg\ : LABEL IS "controlcell1";
@@ -834,6 +863,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
+<<<<<<< HEAD
     \LCD:LCDPort\:logicalport
         GENERIC MAP(
             drive_mode => "110110110110110110110",
@@ -1038,6 +1068,8 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
     Net_2831:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
@@ -1058,7 +1090,11 @@ BEGIN
             main_0 => Net_2828,
             main_1 => Net_2852);
 
+<<<<<<< HEAD
     \Step_Counter:cy_m0s8_tcpwm_1\:m0s8tcpwmcell
+=======
+    \X_Counter:cy_m0s8_tcpwm_1\:m0s8tcpwmcell
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
         GENERIC MAP(
             cy_registers => "")
         PORT MAP(
@@ -1068,11 +1104,19 @@ BEGIN
             reload => '0',
             stop => '0',
             start => '0',
+<<<<<<< HEAD
             tr_underflow => Net_2876,
             tr_overflow => Net_2823,
             tr_compare_match => Net_2879,
             line => Net_2877,
             line_compl => Net_2878,
+=======
+            tr_underflow => Net_2765,
+            tr_overflow => Net_2823,
+            tr_compare_match => Net_2825,
+            line => Net_2767,
+            line_compl => Net_2768,
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
             interrupt => Net_2763);
 
     X_Interrupt:interrupt

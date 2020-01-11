@@ -17,6 +17,7 @@
                     1::Clock Frequency Summary
 ===================================================================== 
 Number of clocks: 11
+<<<<<<< HEAD
 Clock: Clock_1                                     | N/A  | Target: 12.00 MHz  | 
 Clock: Clock_1(FFB)                                | N/A  | Target: 12.00 MHz  | 
 Clock: CyECO                                       | N/A  | Target: 24.00 MHz  | 
@@ -28,6 +29,19 @@ Clock: CyRouted1                                   | N/A  | Target: 48.00 MHz  |
 Clock: CySysClk                                    | N/A  | Target: 48.00 MHz  | 
 Clock: CyWCO                                       | N/A  | Target: 0.03 MHz   | 
 Clock: \Step_Counter:cy_m0s8_tcpwm_1\/tr_overflow  | N/A  | Target: 6.00 MHz   | 
+=======
+Clock: Clock_1                                  | N/A  | Target: 6.00 MHz   | 
+Clock: Clock_1(FFB)                             | N/A  | Target: 6.00 MHz   | 
+Clock: CyECO                                    | N/A  | Target: 24.00 MHz  | 
+Clock: CyHFClk                                  | N/A  | Target: 48.00 MHz  | 
+Clock: CyILO                                    | N/A  | Target: 0.03 MHz   | 
+Clock: CyIMO                                    | N/A  | Target: 48.00 MHz  | 
+Clock: CyLFClk                                  | N/A  | Target: 0.03 MHz   | 
+Clock: CyRouted1                                | N/A  | Target: 48.00 MHz  | 
+Clock: CySysClk                                 | N/A  | Target: 48.00 MHz  | 
+Clock: CyWCO                                    | N/A  | Target: 0.03 MHz   | 
+Clock: \X_Counter:cy_m0s8_tcpwm_1\/tr_overflow  | N/A  | Target: 3.00 MHz   | 
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
  =====================================================================
                     End of Clock Frequency Summary
@@ -61,12 +75,21 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
+<<<<<<< HEAD
 Port Name          Clock to Out  Clock Name:Phase                              
 -----------------  ------------  --------------------------------------------  
 Pin_STEP_X(0)_PAD  34262         \Step_Counter:cy_m0s8_tcpwm_1\/tr_overflow:R  
 Pin_STEP_X(0)_PAD  29050         CyHFClk:R                                     
 Pin_STEP_Y(0)_PAD  33228         \Step_Counter:cy_m0s8_tcpwm_1\/tr_overflow:R  
 Pin_STEP_Y(0)_PAD  28016         CyHFClk:R                                     
+=======
+Port Name          Clock to Out  Clock Name:Phase                           
+-----------------  ------------  -----------------------------------------  
+Pin_STEP_X(0)_PAD  33871         \X_Counter:cy_m0s8_tcpwm_1\/tr_overflow:R  
+Pin_STEP_X(0)_PAD  28617         CyHFClk:R                                  
+Pin_STEP_Y(0)_PAD  34625         \X_Counter:cy_m0s8_tcpwm_1\/tr_overflow:R  
+Pin_STEP_Y(0)_PAD  29371         CyHFClk:R                                  
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
                          3.3::Pad to Pad

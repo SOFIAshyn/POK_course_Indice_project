@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 1
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
    1              		.syntax unified
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
   28:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** * Summary:
   29:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** *  All configuration registers are retention. Nothing to save here.
   30:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** *
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 2
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 2
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
   31:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** * Parameters:
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
   53              		.cfi_offset 4, -8
   54              		.cfi_offset 14, -4
   60:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c ****     if(0u != (Counter_Motor_Steps_BLOCK_CONTROL_REG & Counter_Motor_Steps_MASK))
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 3
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 3
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
   55              		.loc 1 60 0
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
   77:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** *
   78:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** * Summary:
   79:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** *  All configuration registers are retention. Nothing to restore here.
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 4
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 4
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
   80:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c **** *
@@ -238,7 +254,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  117              		.cfi_def_cfa_offset 8
  118              		.cfi_offset 4, -8
  119              		.cfi_offset 14, -4
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 5
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 5
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  110:Generated_Source\PSoC4/Counter_Motor_Steps_PM.c ****     Counter_Motor_Steps_RestoreConfig();
@@ -298,7 +318,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  167 0028 ED010000 		.4byte	.LASF0
  168 002c 02       		.uleb128 0x2
  169 002d 01       		.byte	0x1
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 6
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 6
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  170 002e 08       		.byte	0x8
@@ -358,7 +382,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  224 0093 08       		.byte	0x8
  225 0094 E6000000 		.4byte	.LASF13
  226 0098 04       		.uleb128 0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 7
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 7
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  227 0099 46010000 		.4byte	.LASF14
@@ -418,7 +446,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  281 010c 01       		.byte	0x1
  282 010d 58       		.byte	0x58
  283 010e 00000000 		.4byte	.LFB4
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 8
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 8
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  284 0112 02000000 		.4byte	.LFE4-.LFB4
@@ -478,7 +510,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  338 0011 00       		.byte	0
  339 0012 00       		.byte	0
  340 0013 02       		.uleb128 0x2
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 9
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 9
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  341 0014 24       		.uleb128 0x24
@@ -538,7 +574,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  395 004a 07       		.uleb128 0x7
  396 004b 0D       		.uleb128 0xd
  397 004c 00       		.byte	0
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 10
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 10
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  398 004d 03       		.uleb128 0x3
@@ -598,7 +638,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  452 0084 0E       		.uleb128 0xe
  453 0085 3A       		.uleb128 0x3a
  454 0086 0B       		.uleb128 0xb
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 11
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 11
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  455 0087 3B       		.uleb128 0x3b
@@ -658,7 +702,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  509 00c0 05       		.uleb128 0x5
  510 00c1 00       		.byte	0
  511 00c2 00       		.byte	0
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 12
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 12
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  512 00c3 00       		.byte	0
@@ -718,7 +766,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  553      00
  554              	.LASF22:
  555 002e 436F756E 		.ascii	"Counter_Motor_Steps_Stop\000"
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 13
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 13
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  555      7465725F 
@@ -778,7 +830,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  577      7465725F 
  577      4D6F746F 
  577      725F5374 
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 14
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 14
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  577      6570735F 
@@ -838,7 +894,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 1
  597              	.LASF20:
  598 0245 436F756E 		.ascii	"Counter_Motor_Steps_Sleep\000"
  598      7465725F 
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\cceyFsxM.s 			page 15
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccgV9wSK.s 			page 15
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  598      4D6F746F 

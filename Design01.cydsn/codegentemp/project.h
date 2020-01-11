@@ -24,7 +24,11 @@
 #include "Pin_DIR_X_aliases.h"
 #include "Pin_EN.h"
 #include "Pin_EN_aliases.h"
+<<<<<<< HEAD
 #include "Step_Counter.h"
+=======
+#include "X_Counter.h"
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 #include "Clock_1.h"
 #include "X_Interrupt.h"
 #include "Counter_Motor_Steps.h"
@@ -33,9 +37,12 @@
 #include "Pin_STEP_Y_aliases.h"
 #include "Pin_DIR_Y.h"
 #include "Pin_DIR_Y_aliases.h"
+<<<<<<< HEAD
 #include "LCD.h"
 #include "LCD_LCDPort.h"
 #include "LCD_LCDPort_aliases.h"
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 #include "cy_em_eeprom.h"
 #include "core_cm0_psoc4.h"
 #include "CyFlash.h"

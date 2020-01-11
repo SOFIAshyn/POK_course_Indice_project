@@ -10,6 +10,7 @@
  * ========================================
 */
 #include "project.h"
+<<<<<<< HEAD
 #include "string.h"
 #include "stepper.h"
 
@@ -27,12 +28,20 @@ void move(uint8 motor, uint8 dir, uint16 steps)
             
         }
         Step_Counter_Stop();
+=======
+
+CY_ISR(isr_1)
+{
+    //Pin_STEP_Write(~Pin_STEP_Read());
+    X_Counter_ClearInterrupt(X_Counter_INTR_MASK_TC);
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 }
 
 
 int main()
 {
     CyGlobalIntEnable;
+<<<<<<< HEAD
     
     LCD_Start();    
     Pin_EN_Write(0);
@@ -69,6 +78,40 @@ int main()
             i = 0;
             LCD_ClearDisplay();
         }
+=======
+    X_Interrupt_StartEx(isr_1);
+    Pin_EN_Write(0);
+    
+    Step_Counter_Init();
+    Counter_Motor_Steps_Start();
+    for(;;)
+    {
+       Motor_Control_Reg_Write(1);
+       Pin_DIR_X_Write(0);
+       Pin_DIR_Y_Write(0);
+       Counter_Motor_Steps_WriteCounter(0); 
+       Step_Counter_Enable();
+       while (Counter_Motor_Steps_ReadCounter() < 1000)
+        {
+            CyDelay(1);
+        }
+        Step_Counter_Stop();
+        CyDelay(500);
+        
+        Motor_Control_Reg_Write(0);
+        
+        
+       Pin_DIR_X_Write(1);
+       Pin_DIR_Y_Write(1);
+       Counter_Motor_Steps_WriteCounter(0); 
+       Step_Counter_Enable();
+       while (Counter_Motor_Steps_ReadCounter() < 1000)
+        {
+            CyDelay(1);
+        }
+        Step_Counter_Stop();
+        CyDelay(500);
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
         
     
     }

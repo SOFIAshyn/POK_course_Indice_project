@@ -56,6 +56,7 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cydisabledsheets.h</File>
+<<<<<<< HEAD
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_X.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_X.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_X_aliases.h</File>
@@ -64,17 +65,26 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_X.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_X_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_X_PM.c</File>
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_EN.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_EN.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_EN_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_EN_PM.c</File>
+<<<<<<< HEAD
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Step_Counter.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Step_Counter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Step_Counter_PM.c</File>
+=======
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X_Counter.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X_Counter.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X_Counter_PM.c</File>
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X_Interrupt.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X_Interrupt.h</File>
+<<<<<<< HEAD
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Counter_Motor_Steps.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Counter_Motor_Steps.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Counter_Motor_Steps_PM.c</File>
@@ -89,6 +99,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_Y.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_Y_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_Y_PM.c</File>
+=======
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cy_em_eeprom.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cy_em_eeprom.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC4\cm0gcc.ld</File>
@@ -122,6 +134,7 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.scat</File>
+<<<<<<< HEAD
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_BarGraph.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD.h</File>
@@ -130,6 +143,30 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_LCDPort.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_LCDPort_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_LCDPort_PM.c</File>
+=======
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Counter_Motor_Steps.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Counter_Motor_Steps.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Counter_Motor_Steps_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_X.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_X.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_X_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_X_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_X.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_X.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_X_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_X_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Motor_Control_Reg.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Motor_Control_Reg.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Motor_Control_Reg_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_Y.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_Y.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_Y_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_STEP_Y_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_Y.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_Y.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_Y_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_DIR_Y_PM.c</File>
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">

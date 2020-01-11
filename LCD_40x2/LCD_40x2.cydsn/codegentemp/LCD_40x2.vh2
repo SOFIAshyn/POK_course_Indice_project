@@ -1,0 +1,251 @@
+--
+--	Conversion of LCD_40x2.v to vh2:
+--
+--	Cypress Semiconductor - WARP Version 6.3 IR 41
+--	Tue Dec 24 18:48:25 2019
+--
+
+USE cypress.cypress.all;
+USE cypress.rtlpkg.all;
+ENTITY top_RTL IS
+ATTRIBUTE part_name of top_RTL:TYPE IS "cpsoc3";
+END top_RTL;
+--------------------------------------------------------
+ARCHITECTURE R_T_L OF top_RTL IS
+SIGNAL \LCD:tmpOE__LCDPort_net_6\ : bit;
+SIGNAL \LCD:tmpOE__LCDPort_net_5\ : bit;
+SIGNAL \LCD:tmpOE__LCDPort_net_4\ : bit;
+SIGNAL \LCD:tmpOE__LCDPort_net_3\ : bit;
+SIGNAL \LCD:tmpOE__LCDPort_net_2\ : bit;
+SIGNAL \LCD:tmpOE__LCDPort_net_1\ : bit;
+SIGNAL \LCD:tmpOE__LCDPort_net_0\ : bit;
+SIGNAL zero : bit;
+SIGNAL \LCD:tmpFB_6__LCDPort_net_6\ : bit;
+SIGNAL \LCD:tmpFB_6__LCDPort_net_5\ : bit;
+SIGNAL \LCD:tmpFB_6__LCDPort_net_4\ : bit;
+SIGNAL \LCD:tmpFB_6__LCDPort_net_3\ : bit;
+SIGNAL \LCD:tmpFB_6__LCDPort_net_2\ : bit;
+SIGNAL \LCD:tmpFB_6__LCDPort_net_1\ : bit;
+SIGNAL \LCD:tmpFB_6__LCDPort_net_0\ : bit;
+SIGNAL \LCD:tmpIO_6__LCDPort_net_6\ : bit;
+SIGNAL \LCD:tmpIO_6__LCDPort_net_5\ : bit;
+SIGNAL \LCD:tmpIO_6__LCDPort_net_4\ : bit;
+SIGNAL \LCD:tmpIO_6__LCDPort_net_3\ : bit;
+SIGNAL \LCD:tmpIO_6__LCDPort_net_2\ : bit;
+SIGNAL \LCD:tmpIO_6__LCDPort_net_1\ : bit;
+SIGNAL \LCD:tmpIO_6__LCDPort_net_0\ : bit;
+TERMINAL \LCD:tmpSIOVREF__LCDPort_net_0\ : bit;
+SIGNAL one : bit;
+SIGNAL \LCD:tmpINTERRUPT_0__LCDPort_net_0\ : bit;
+TERMINAL Net_80 : bit;
+TERMINAL Net_81 : bit;
+TERMINAL Net_82 : bit;
+TERMINAL D_0 : bit;
+TERMINAL Net_83 : bit;
+TERMINAL Net_19 : bit;
+TERMINAL Net_116 : bit;
+TERMINAL RS : bit;
+TERMINAL RW : bit;
+TERMINAL E : bit;
+TERMINAL Net_84 : bit;
+TERMINAL Net_121 : bit;
+TERMINAL Net_98 : bit;
+TERMINAL D_1 : bit;
+TERMINAL D_2 : bit;
+TERMINAL D_3 : bit;
+TERMINAL Net_85 : bit;
+TERMINAL Net_86 : bit;
+BEGIN
+
+zero <=  ('0') ;
+
+one <=  ('1') ;
+
+\LCD:LCDPort\:cy_psoc3_pins_v1_10
+	GENERIC MAP(id=>"c9ce2be9-ef37-40d7-a46c-17e7d2193233/ed092b9b-d398-4703-be89-cebf998501f6",
+		drive_mode=>"110110110110110110110",
+		ibuf_enabled=>"1111111",
+		init_dr_st=>"0000000",
+		input_sync=>"1111111",
+		input_clk_en=>'0',
+		input_sync_mode=>"0000000",
+		intr_mode=>"00000000000000",
+		invert_in_clock=>'0',
+		invert_in_clock_en=>'0',
+		invert_in_reset=>'0',
+		invert_out_clock=>'0',
+		invert_out_clock_en=>'0',
+		invert_out_reset=>'0',
+		io_voltage=>",,,,,,",
+		layout_mode=>"CONTIGUOUS",
+		output_conn=>"0000000",
+		output_sync=>"0000000",
+		output_clk_en=>'0',
+		output_mode=>"0000000",
+		output_reset=>'0',
+		output_clock_mode=>"0000000",
+		oe_sync=>"0000000",
+		oe_conn=>"0000000",
+		oe_reset=>'0',
+		pin_aliases=>",,,,,,",
+		pin_mode=>"OOOOOOO",
+		por_state=>4,
+		sio_group_cnt=>0,
+		sio_hifreq=>"00000000",
+		sio_hyst=>"1111111",
+		sio_ibuf=>"00000000",
+		sio_info=>"00000000000000",
+		sio_obuf=>"00000000",
+		sio_refsel=>"00000000",
+		sio_vtrip=>"00000000",
+		sio_vohsel=>"00000000",
+		slew_rate=>"0000000",
+		spanning=>'0',
+		sw_only=>'0',
+		vtrip=>"10101010101010",
+		width=>7,
+		port_alias_required=>'0',
+		port_alias_group=>"",
+		use_annotation=>"0000000",
+		pa_in_clock=>-1,
+		pa_in_clock_en=>-1,
+		pa_in_reset=>-1,
+		pa_out_clock=>-1,
+		pa_out_clock_en=>-1,
+		pa_out_reset=>-1,
+		ovt_needed=>"0000000",
+		ovt_slew_control=>"00000000000000",
+		ovt_hyst_trim=>"0000000",
+		input_buffer_sel=>"00000000000000")
+	PORT MAP(oe=>(one, one, one, one,
+			one, one, one),
+		y=>(zero, zero, zero, zero,
+			zero, zero, zero),
+		fb=>(\LCD:tmpFB_6__LCDPort_net_6\, \LCD:tmpFB_6__LCDPort_net_5\, \LCD:tmpFB_6__LCDPort_net_4\, \LCD:tmpFB_6__LCDPort_net_3\,
+			\LCD:tmpFB_6__LCDPort_net_2\, \LCD:tmpFB_6__LCDPort_net_1\, \LCD:tmpFB_6__LCDPort_net_0\),
+		analog=>(open, open, open, open,
+			open, open, open),
+		io=>(\LCD:tmpIO_6__LCDPort_net_6\, \LCD:tmpIO_6__LCDPort_net_5\, \LCD:tmpIO_6__LCDPort_net_4\, \LCD:tmpIO_6__LCDPort_net_3\,
+			\LCD:tmpIO_6__LCDPort_net_2\, \LCD:tmpIO_6__LCDPort_net_1\, \LCD:tmpIO_6__LCDPort_net_0\),
+		siovref=>(\LCD:tmpSIOVREF__LCDPort_net_0\),
+		annotation=>(open, open, open, open,
+			open, open, open),
+		in_clock=>zero,
+		in_clock_en=>one,
+		in_reset=>zero,
+		out_clock=>zero,
+		out_clock_en=>one,
+		out_reset=>zero,
+		interrupt=>\LCD:tmpINTERRUPT_0__LCDPort_net_0\);
+TP_1:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_80);
+TP_10:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_81);
+TP_11:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_82);
+TP_13:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>D_0);
+TP_12:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_83);
+TP_2:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_19);
+TP_3:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_116);
+TP_4:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>RS);
+TP_5:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>RW);
+TP_6:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>E);
+TP_7:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_84);
+GND_2:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Gnd_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_80);
+R2:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Resistor_v1_0",
+		port_names=>"T1, T2",
+		width=>2)
+	PORT MAP(connect=>(Net_121, Net_116));
+R1:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Resistor_v1_0",
+		port_names=>"T1, T2",
+		width=>2)
+	PORT MAP(connect=>(Net_116, Net_98));
+GND_3:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Gnd_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_98);
+PWR_2:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Power_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_121);
+PWR_1:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"Power_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_19);
+TP_14:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>D_1);
+TP_15:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>D_2);
+TP_16:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>D_3);
+TP_17:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_85);
+TP_18:cy_annotation_universal_v1_0
+	GENERIC MAP(comp_name=>"TestPoint_v1_0",
+		port_names=>"T1",
+		width=>1)
+	PORT MAP(connect=>Net_86);
+
+END R_T_L;

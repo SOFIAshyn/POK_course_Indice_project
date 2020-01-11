@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 1
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
    1              		.syntax unified
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
   28:Generated_Source\PSoC4/cyutils.c ****     * \reentrant No
   29:Generated_Source\PSoC4/cyutils.c ****     *
   30:Generated_Source\PSoC4/cyutils.c ****     ***************************************************************************/
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 2
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 2
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
   31:Generated_Source\PSoC4/cyutils.c ****     void CySetReg24(uint32 volatile * addr, uint32 value)
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
   53:Generated_Source\PSoC4/cyutils.c ****         * \reentrant No
   54:Generated_Source\PSoC4/cyutils.c ****         *
   55:Generated_Source\PSoC4/cyutils.c ****         ***************************************************************************/
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 3
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 3
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
   56:Generated_Source\PSoC4/cyutils.c ****         uint32 CyGetReg24(uint32 const volatile * addr)
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  101 0019 00000000 		.4byte	.Ldebug_ranges0+0
  102 001d 00000000 		.4byte	0
  103 0021 00000000 		.4byte	.Ldebug_line0
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 4
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 4
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  104 0025 02       		.uleb128 0x2
@@ -238,7 +254,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  158 008a 02       		.uleb128 0x2
  159 008b 08       		.byte	0x8
  160 008c 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 5
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 5
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  161 008d 62000000 		.4byte	.LASF12
@@ -298,7 +318,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  215 0102 34010000 		.4byte	0x134
  216 0106 08       		.uleb128 0x8
  217 0107 1C000000 		.4byte	.LASF14
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 6
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 6
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  218 010b 01       		.byte	0x1
@@ -358,7 +382,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  272 0018 3E       		.uleb128 0x3e
  273 0019 0B       		.uleb128 0xb
  274 001a 03       		.uleb128 0x3
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 7
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 7
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  275 001b 0E       		.uleb128 0xe
@@ -418,7 +446,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  329 0052 19       		.uleb128 0x19
  330 0053 01       		.uleb128 0x1
  331 0054 13       		.uleb128 0x13
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 8
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 8
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  332 0055 00       		.byte	0
@@ -478,7 +510,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  386 008b 00       		.byte	0
  387 008c 00       		.byte	0
  388 008d 0B       		.uleb128 0xb
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 9
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 9
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  389 008e 2E       		.uleb128 0x2e
@@ -538,7 +574,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  443 0008 0100     		.2byte	0x1
  444 000a 51       		.byte	0x51
  445 000b 0C000000 		.4byte	.LVL1
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 10
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 10
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  446 000f 12000000 		.4byte	.LFE0
@@ -598,7 +638,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  500 0089 00000000 		.4byte	0
  501 008d 00000000 		.4byte	0
  502              		.section	.debug_aranges,"",%progbits
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 11
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 11
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  503 0000 24000000 		.4byte	0x24
@@ -658,7 +702,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  542 003d 6C6F6E67 		.ascii	"long unsigned int\000"
  542      20756E73 
  542      69676E65 
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 12
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 12
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  542      6420696E 
@@ -718,7 +766,11 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 1
  561      72617465 
  561      645F536F 
  561      75726365 
+<<<<<<< HEAD
 ARM GAS  C:\Users\User\AppData\Local\Temp\ccSHwEHd.s 			page 13
+=======
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccXHJDpT.s 			page 13
+>>>>>>> 2a53f4dd5b08b7201acfd3c35e4b74087265cf45
 
 
  561      5C50536F 
