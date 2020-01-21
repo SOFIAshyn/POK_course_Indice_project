@@ -1,39 +1,19 @@
-/* ========================================
- *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
- *
- * ========================================
-*/
 #include "project.h"
 #include "string.h"
 #include "stepper.h"
 #include "stdlib.h"
+
 uint16 lcd_i = 0;
 
-//uint16 alphabet[27][2] = {{LCD_CUSTOM_6, LCD_CUSTOM_7}, {LCD_CUSTOM_1, LCD_CUSTOM_7}, {LCD_CUSTOM_6, LCD_CUSTOM_6}, {LCD_CUSTOM_6, LCD_CUSTOM_1},
-//                          {LCD_CUSTOM_6, LCD_CUSTOM_4}, {LCD_CUSTOM_1, LCD_CUSTOM_6}, {LCD_CUSTOM_1, LCD_CUSTOM_1}, {LCD_CUSTOM_1, LCD_CUSTOM_4},
-//                           {LCD_CUSTOM_4, LCD_CUSTOM_6}, {LCD_CUSTOM_4, LCD_CUSTOM_1}, {LCD_CUSTOM_3, LCD_CUSTOM_7},{LCD_CUSTOM_0, LCD_CUSTOM_7},
-//                           {LCD_CUSTOM_3, LCD_CUSTOM_6}, {LCD_CUSTOM_3, LCD_CUSTOM_1}, {LCD_CUSTOM_3, LCD_CUSTOM_4}, {LCD_CUSTOM_0, LCD_CUSTOM_6},
-//                            {LCD_CUSTOM_0, LCD_CUSTOM_1}, {LCD_CUSTOM_0, LCD_CUSTOM_4}, {LCD_CUSTOM_2, LCD_CUSTOM_6}, {LCD_CUSTOM_2, LCD_CUSTOM_1},
-//                            {LCD_CUSTOM_3, LCD_CUSTOM_5}, {LCD_CUSTOM_0, LCD_CUSTOM_5}, {LCD_CUSTOM_4, LCD_CUSTOM_0}, {LCD_CUSTOM_3, LCD_CUSTOM_3},
-//                            {LCD_CUSTOM_3, LCD_CUSTOM_0}, {LCD_CUSTOM_3, LCD_CUSTOM_2}, 
-//                            {LCD_CUSTOM_5, LCD_CUSTOM_0}};  // Digit character
+// Braille display alphabet 
 uint16 lcd_alphabet[8] = {LCD_CUSTOM_0, LCD_CUSTOM_1, LCD_CUSTOM_2, LCD_CUSTOM_3, LCD_CUSTOM_4, LCD_CUSTOM_5, LCD_CUSTOM_6, LCD_CUSTOM_7};
-
-uint8 hands_alphabet[27][2] = {{2, 1}, {3, 1}, {2,2}, {2, 3}, {2, 7}, {3, 2}, {3,3}, {3,7}, {7, 2}, {7, 3}, {6, 1}, {4, 1}, {6, 2},
-                            {6, 3}, {6, 7}, {4, 2}, {4, 3}, {4,7}, {5, 2},{5, 3}, {6, 0}, {4, 0}, {7, 4}, {6,6}, {6, 4}, {6, 5}, {0, 4}};
 
 uint8 hands_position[60];
 
 
 void print_num_sign(){
     
-    // Prints number sign (26 - digit char)
+    // Prints number sign (26 - digit char) to the LCD
     
     LCD_Position(0u, lcd_i);
     LCD_PutChar(' ');
@@ -49,70 +29,64 @@ void print_num_sign(){
 int main()
 {
     CyGlobalIntEnable;
+    LCD_PrintString("Indice");
     CyDelay(2000);
+    LCD_ClearDisplay();
+    
     for (int i=0; i< 60; i++) hands_position[i] = 7;
     
     LCD_Start(); 
     Pin_EN_Write(0);
-    uint8 arr_dir[10] = {0, 0, 1, 0, 1, 0, 1, 1, 0, 1};
+    
     uint16 arr_steps[2] = {832, 1280};
     
-    uint16 letter_i = 0;
+    
     bool isNum = false;
+    
+    // Index of the string 
+    uint16 letter_i = 0;
+    
+    // Letter in ascii for the hands_alphabet array
     int letter_ascii;
+    
     uint8 letter;
+    
+    // 
     uint8 pos_l;
     uint8 pos_r;
+    
+    // Chars to print on LCD
     char br1;
     char br2;
+    
     X_DIRECTION_ENUM dir;
+    
     char *str = "OlegFarenyuk";
-    //char str[12] = {'o','l','e','g','f','a','r','e','n','i', 'u','k'};
-    LCD_ClearDisplay();
+    
     if (!Stepper_Init()) 
     {
-        LCD_PutChar('s');
+        LCD_PrintString("Error");
         while (1){}
     }  
     
     Counter_Motor_Steps_Start();
     
+
+// Code for testing
     
-//    Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, 350);
-//    CyDelay(1000);
-//    
 //  while(1){
 //    
 //        Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 175);
 //        Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, 3650);
-       // if (Pin_Opt_Read() == 1){
-         //   LCD_PutChar('a');
-        //}
-        //else{
-         //   LCD_PutChar('b');
-        //}
-//        CyDelay(1000);
-//        Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, 1450);
-//        CyDelay(1000);
-//        Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, 800);
-//        CyDelay(1000);
-//        Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, 1450);
-//        CyDelay(1000);
-//         Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 1450);
-//        CyDelay(1000);
-//        Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 800);
-//        CyDelay(1000);
-//        Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 1450);
-//        CyDelay(1000);
-//        Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 800);
-//        CyDelay(1000);
-   // CyDelay(100000);
-    //}
-//    
+          // CyDelay(100000);
+//    }
+
     
     
+    // Move motor from the starting position
     Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 175);
     Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, 3650);
+    
     for(;;)
     {
         letter = str[letter_i];
@@ -155,10 +129,10 @@ int main()
             dir = DIR_CLOCKWISE;
         }
         
-      //  CyDelay(1000);
+      
         if (pos_l != hands_position[letter_i * 2 ]){
             Stepper_MoveX(false, MOTOR_1, dir, 640 * abs(pos_l - hands_position[letter_i * 2]));  // small motor
-           // CyDelay(1000);
+           
         }
         
         Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, arr_steps[0]);  // big motor
@@ -172,10 +146,10 @@ int main()
             dir = DIR_CLOCKWISE;
         }
        
-        //CyDelay(1000);
+        
         if (pos_r != hands_position[letter_i * 2 + 1]){
             Stepper_MoveX(false, MOTOR_1, dir, 640 * abs(pos_r - hands_position[letter_i * 2 + 1]));  // small motor
-        //   CyDelay(1000);
+        
         }
          Stepper_MoveX(false, MOTOR_2, DIR_CLOCKWISE, arr_steps[1]);  // big motor
         
@@ -183,8 +157,7 @@ int main()
         
         
         
-        
-        
+       
         lcd_i += 2;
         letter_i++;
         if (lcd_i == 40){
@@ -192,9 +165,9 @@ int main()
             LCD_ClearDisplay();
         }
         if (letter_i == 12){
-         //   Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 56000);
-           // LCD_ClearDisplay();
-            break;
+          //Stepper_MoveX(false, MOTOR_2, DIR_CNTCLCKWISE, 56000);
+          
+           break;
         }
         
         
