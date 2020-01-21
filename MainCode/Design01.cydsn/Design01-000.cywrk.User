@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\TopDesign</v>
+<v>Design01-000\Design01\Design01.cydwr</v>
+<v>Design01-000\Design01\Design01.cydwr\Pins</v>
+<v>Design01-000\Design01\Design01.cydwr\Analog</v>
+<v>Design01-000\Design01\Design01.cydwr\DMA</v>
+<v>Design01-000\Design01\Design01.cydwr\Clocks</v>
+<v>Design01-000\Design01\Design01.cydwr\Interrupts</v>
+<v>Design01-000\Design01\Design01.cydwr\System</v>
+<v>Design01-000\Design01\Design01.cydwr\Directives</v>
+<v>Design01-000\Design01\Design01.cydwr\Flash Security</v>
+<v>Design01-000\Design01\Header Files</v>
+<v>Design01-000\Design01\Header Files\cyapicallbacks.h</v>
+<v>Design01-000\Design01\Header Files\stepper.h</v>
+<v>Design01-000\Design01\Source Files</v>
+<v>Design01-000\Design01\Source Files\main.c</v>
+<v>Design01-000\Design01\Source Files\stepper.c</v>
+<v>Design01-000\Design01\Generated_Source</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\TopDesign</v>
+<v>Design01-000\Design01\Design01.cydwr</v>
+<v>Design01-000\Design01\Design01.cydwr\Pins</v>
+<v>Design01-000\Design01\Design01.cydwr\Analog</v>
+<v>Design01-000\Design01\Design01.cydwr\DMA</v>
+<v>Design01-000\Design01\Design01.cydwr\Clocks</v>
+<v>Design01-000\Design01\Design01.cydwr\Interrupts</v>
+<v>Design01-000\Design01\Design01.cydwr\System</v>
+<v>Design01-000\Design01\Design01.cydwr\Directives</v>
+<v>Design01-000\Design01\Design01.cydwr\Flash Security</v>
+<v>Design01-000\Design01\Header Files</v>
+<v>Design01-000\Design01\Header Files\cyapicallbacks.h</v>
+<v>Design01-000\Design01\Header Files\stepper.h</v>
+<v>Design01-000\Design01\Source Files</v>
+<v>Design01-000\Design01\Source Files\main.c</v>
+<v>Design01-000\Design01\Source Files\stepper.c</v>
+<v>Design01-000\Design01\Generated_Source</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Clock_1</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Counter_Motor_Steps</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\cy_boot</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\cy_dmac</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\cy_lfclk</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\LCD</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\LCD_LCDPort</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Motor_Control_Reg</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Pin_DIR_X</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Pin_DIR_Y</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Pin_EN</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Pin_Opt</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Pin_STEP_X</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Pin_STEP_Y</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\Step_Counter</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\X_Interrupt</v>
+<v>Design01-000\Design01\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\TopDesign</v>
+<v>Design01-000\Design01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\TopDesign</v>
+<v>Design01-000\Design01\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\CortexM0</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Counter_Motor_Steps.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Counter_Motor_Steps_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_CustChars.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Motor_Control_Reg.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Motor_Control_Reg_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_X.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_X_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_Y.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_Y_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_EN.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_EN_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Opt.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Opt_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_STEP_X.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_STEP_X_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_STEP_Y.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_STEP_Y_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Step_Counter.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Step_Counter_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\stepper.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\X_Interrupt.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Design01.elf</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Design01.hex</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Design01.map</v>
+<v>Design01-000\Design01\Design01.gpdsc</v>
+<v>Design01-000\Design01\Design01.rpt</v>
+<v>Design01-000\Design01\Design01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\CortexM0</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Counter_Motor_Steps.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Counter_Motor_Steps_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_CustChars.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Motor_Control_Reg.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Motor_Control_Reg_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_X.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_X_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_Y.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_DIR_Y_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_EN.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_EN_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Opt.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_Opt_PM.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_STEP_X.lst</v>
+<v>Design01-000\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_STEP_X_PM.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\PSoC 4 Architecture TRM</v>
+<v>Design01-000\Design01\PSoC 4200 BLE Family Datasheet</v>
+<v>Design01-000\Design01\System Reference Guides</v>
+<v>Design01-000\Design01\System Reference Guides\cy_boot_v5_80</v>
+<v>Design01-000\Design01\System Reference Guides\cy_dmac_v1_10</v>
+<v>Design01-000\Design01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Design01-000\Design01\and_v1_0</v>
+<v>Design01-000\Design01\and_v1_0\and_v1_0.pdf</v>
+<v>Design01-000\Design01\CharLCD_v2_20.pdf</v>
+<v>Design01-000\Design01\cy_clock_v2_20.pdf</v>
+<v>Design01-000\Design01\cy_constant_v1_0.pdf</v>
+<v>Design01-000\Design01\cy_isr_v1_70.pdf</v>
+<v>Design01-000\Design01\cy_pins_v2_20</v>
+<v>Design01-000\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Design01-000\Design01\cy_tff_v1_0.pdf</v>
+<v>Design01-000\Design01\CyControlReg_v1_80.pdf</v>
+<v>Design01-000\Design01\not_v1_0.pdf</v>
+<v>Design01-000\Design01\TCPWM_P4_v2_10</v>
+<v>Design01-000\Design01\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Design01-000</v>
+<v>Design01-000\Design01</v>
+<v>Design01-000\Design01\PSoC 4 Architecture TRM</v>
+<v>Design01-000\Design01\PSoC 4200 BLE Family Datasheet</v>
+<v>Design01-000\Design01\System Reference Guides</v>
+<v>Design01-000\Design01\System Reference Guides\cy_boot_v5_80</v>
+<v>Design01-000\Design01\System Reference Guides\cy_dmac_v1_10</v>
+<v>Design01-000\Design01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Design01-000\Design01\and_v1_0</v>
+<v>Design01-000\Design01\and_v1_0\and_v1_0.pdf</v>
+<v>Design01-000\Design01\CharLCD_v2_20.pdf</v>
+<v>Design01-000\Design01\cy_clock_v2_20.pdf</v>
+<v>Design01-000\Design01\cy_constant_v1_0.pdf</v>
+<v>Design01-000\Design01\cy_isr_v1_70.pdf</v>
+<v>Design01-000\Design01\cy_pins_v2_20</v>
+<v>Design01-000\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Design01-000\Design01\cy_tff_v1_0.pdf</v>
+<v>Design01-000\Design01\CyControlReg_v1_80.pdf</v>
+<v>Design01-000\Design01\not_v1_0.pdf</v>
+<v>Design01-000\Design01\TCPWM_P4_v2_10</v>
+<v>Design01-000\Design01\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1181, 717" SelectedTabbedMdiWindow="34a66142-c3fe-4543-885d-6889c3b5186a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="d31d29c4-0f48-4b7f-b126-71b12684c1fd" /><DocumentWindow Key="C:\Users\User\Documents\PSoC Creator\indice\indice\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="35aa2e1f-5a1b-46dd-b426-7ad3f3ba0d42" /><DocumentWindow Key="C:\Users\User\Documents\PSoC Creator\indice\indice\Design01.cydsn\main.c" Guid="34a66142-c3fe-4543-885d-6889c3b5186a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
