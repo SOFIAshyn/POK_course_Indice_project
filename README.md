@@ -32,13 +32,16 @@ The device is based on [PSOC 4 BLE PIONER KIT](https://www.cypress.com/documenta
 ![](https://www.mouser.in/images/cypresssemiconductor/lrg/CY8CKIT-042BLE_t.jpg)
 #### Stepper Motors
 We use stepper motor Nema 13 to rotate gear wheel which shifts hands with dots and scallops. Also, we use stepper motor Nema 7 to move gear wheel along the row to change its position above the hands. 
+
 Stepper motors are based on [Arduino CNC Shield v.3](https://www.openimpulse.com/blog/products-page/product-category/a4988-cnc-shield-v3-arduino/)
+
 ![](https://www.botshop.co.za/wp-content/uploads/2017/01/cnc-shield01.jpg)
 #### LCD Display
 
 *LCD Display 40x2*
 ![](https://picua.org/images/2020/01/21/b34dab65a0a8d6dbec03b4fab8d81c05.jpg)
 We use LCD display for testing the device. While gear wheel is shifting hands, display are showing symbols and their Braille implementations below to compare if they match with received on hands.
+
 LCD display is based on a self-made computer board.
 ![](https://picua.org/images/2020/01/21/ccb8cf8e2996cb176d65491c1f3ab37c.jpg) 
 ___
